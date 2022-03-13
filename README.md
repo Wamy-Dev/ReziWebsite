@@ -25,7 +25,7 @@ This site is pretty straight forward all on its own and doesn't need much instru
 Good question! If you would like to help you can either donate (helps me out a lot) or you can wait until I fully release the code, and add your own. I will also implement website requesting (propably in the discord) as it is relatively easy to go implement. Also, if you find a problem, please report it in the issues tab in this [github](https://github.com/Wamy-Dev/ReziWebsite/issues) so I can fix it!
 
 ##### This website was made by me, Wamy.
-##### If you want to contact me: [Reddit](https://www.reddit.com/user/Official-Wamy), Discord: Wamy#0001 or my personal discord server: [Server](https://discord.gg/47SnjxgBFb)
-##### If you want to donate to show your thanks: [on Ko-fi](https://ko-fi.com/H2H07Y9MB), [on PayPal](https://www.paypal.com/paypalme/DavidNovencido) or BTC=bc1q7lk7mpgjjzjfm6xcp6fmn9edtuvwnyr2npqs6l
+##### If you want to contact me: [https://homeonacloud.com/pages/contactme.html
+##### If you want to donate to show your thanks: https://homeonacloud.com/pages/donate.html
 ##### This project was made with community in mind, please be nice and don't steal my work.
 
