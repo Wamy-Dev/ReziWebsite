@@ -22,7 +22,7 @@ Yes. But there will be a non-piracy version for searching through links from sit
 This site is pretty straight forward all on its own and doesn't need much instruction, but for those interested in the code and all of its functions, that will be there too. There, I will be going into the nitty gritty of the code and explaining everything.
 
 # How can I help?
-Good question! If you would like to help you can either donate (helps me out a lot) or you can wait until I fully release the code, and add your own. I will also implement website requesting (propably in the discord) as it is relatively easy to go implement. Also, if you find a problem, please report it in the issues tab in this [github](https://github.com/Wamy-Dev/ReziWebsite/issues) so I can fix it!
+Good question! If you would like to help you can either donate (helps me out a lot) or you can wait until I fully release the code, and add your own. I will also implement website requesting (propably in the discord) as it is relatively easy to go implement. Also, if you find a problem, please report it in the issues tab in this [github](https://github.com/Wamy-Dev/ReziWebsite/issues/new/choose) so I can fix it!
 
 ##### This website was made by me, Wamy.
 ##### If you want to contact me: [My personal contact page](https://homeonacloud.com/pages/contactme.html)
