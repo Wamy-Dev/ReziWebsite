@@ -10,7 +10,7 @@ Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second itera
 No idea. Eta son?'
 
 # What about the Rezi Bot?
-Eventually I will either recode it, or if someone forks it on their own, thats possible too. I have no idea iff I want to rely on new code or just rely on the old code. It currently just needs fixing. If you are interested in trying it out yourself, it is [here](https://github.com/Wamy-Dev/Rezi).
+Eventually I will either recode it, or if someone forks it on their own, thats possible too. I have no idea if I want to rely on new code or just rely on the old code. It currently just needs fixing. If you are interested in trying it out yourself, it is [here](https://github.com/Wamy-Dev/Rezi).
 
 # What is this?
 This is the second iteration of the Rezi Project after the [Rezi Bot](https://github.com/Wamy-Dev/Rezi) broke. This site basically does everything the Rezi Bot did except it runs on a website and is much faster. I will explain all of it in the wiki if interested. For those who haven't used the Rezi Bot, **this site basically scrapes links from game sites and puts them all into a file for your searching convenience. Every 24 hours, the bot scrapes links from an input text file, and then puts it all into a json, which is then converted to a table and puts into an html.**
