@@ -1,13 +1,13 @@
 # ReziWebsite
 
-Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second iteration of the Rezi Project after the [Rezi Bot](https://github.com/Wamy-Dev/Rezi) broke. This project will eventually be open source, but right now, I am not comfortable releasing it in its current state. The [Rezi Bot](https://github.com/Wamy-Dev/Rezi) was rushed and I learned a lot through that project, and I don't want to make the same mistake twice. For now the source code will be kept private. I run this all on my own with school and work and relationsips as well. I still have a lot of testing to do, so thank you for your patience with the project. 
+Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second iteration of the Rezi Project after the [Rezi Bot](https://github.com/Wamy-Dev/Rezi) broke, instead of using a discord interface, it is now in a website.
 
-*Latest Stable= NA | Latest Dev= NA*
+*Latest Stable= v1.0.0 | Latest Dev= v1.0.0*
 
 # Website = www.rezi.one
 
 # When will the full release be available?
-No idea. Eta son?'
+Released 3/15/2022 for full use. Thank you.
 
 # What about the Rezi Bot?
 [Rezi Bot](https://github.com/Wamy-Dev/Rezi) is finally available, and it relies on the Rezi Website instead of using it's own search engine.
