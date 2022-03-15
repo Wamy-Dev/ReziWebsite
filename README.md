@@ -1,6 +1,6 @@
 # ReziWebsite
 
-Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second iteration of the Rezi Project after the [Rezi Bot](https://github.com/Wamy-Dev/Rezi) broke (to be revived when I get the chance). This project will eventually be open source, but right now, I am not comfortable releasing it in its current state. The [Rezi Bot](https://github.com/Wamy-Dev/Rezi) was rushed and I learned a lot through that project, and I don't want to make the same mistake twice. For now the source code will be kept private. I run this all on my own with school and work and relationsips as well. I still have a lot of testing to do, so thank you for your patience with the project. 
+Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second iteration of the Rezi Project after the [Rezi Bot](https://github.com/Wamy-Dev/Rezi) broke. This project will eventually be open source, but right now, I am not comfortable releasing it in its current state. The [Rezi Bot](https://github.com/Wamy-Dev/Rezi) was rushed and I learned a lot through that project, and I don't want to make the same mistake twice. For now the source code will be kept private. I run this all on my own with school and work and relationsips as well. I still have a lot of testing to do, so thank you for your patience with the project. 
 
 *Latest Stable= NA | Latest Dev= NA*
 
@@ -10,7 +10,7 @@ Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second itera
 No idea. Eta son?'
 
 # What about the Rezi Bot?
-Eventually I will either recode it, or if someone forks it on their own, thats possible too. I have no idea if I want to rely on new code or just rely on the old code. It currently just needs fixing. If you are interested in trying it out yourself, it is [here](https://github.com/Wamy-Dev/Rezi).
+[Rezi Bot](https://github.com/Wamy-Dev/Rezi) is finally available, and it relies on the Rezi Website instead of using it's own search engine.
 
 # What is this?
 This is the second iteration of the Rezi Project after the [Rezi Bot](https://github.com/Wamy-Dev/Rezi) broke. This site basically does everything the Rezi Bot did except it runs on a website and is much faster. I will explain all of it in the wiki if interested. For those who haven't used the Rezi Bot, **this site basically scrapes links from game sites and puts them all into a file for your searching convenience. Every 24 hours, the bot scrapes links from an input text file, and then puts it all into a json, which is then converted to a table and puts into an html.**
