@@ -1,0 +1,11 @@
+beautifulsoup4 == 4.10.0
+selenium == 4.1.0
+undetected-chromedriver == 3.0.6
+requests-html == 0.10.0
+output == 1.0.1
+json2table
+pysftp
+requests
+meilisearch
+pysftp
+python-decouple
