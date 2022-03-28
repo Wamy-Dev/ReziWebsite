@@ -4,7 +4,7 @@ Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second itera
 
 *Latest Stable= v1.0.0 | Latest Dev= v1.0.0*
 
-# Website = www.rezi.one
+# Website = [rezi.one](https://rezi.one)
 
 # When will the full release be available?
 Released 3/15/2022 for full use. Thank you.
