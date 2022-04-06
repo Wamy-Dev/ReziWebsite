@@ -2,7 +2,7 @@
 
 Welcome to the [Rezi.one](https://www.rezi.one) github! This is the second iteration of the Rezi Project after the [Rezi Bot](https://github.com/Wamy-Dev/Rezi) broke, instead of using a discord interface, it is now in a website.
 
-*Latest Stable= v1.0.0 | Latest Dev= v1.0.0*
+*Latest (3/15/2022) = v1.0.0*
 
 # Website = [rezi.one](https://rezi.one)
 
