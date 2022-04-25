@@ -12,20 +12,30 @@ import json
 import time
 import decouple
 from decouple import config
-
+import requests
+from os import getcwd
+#
 SELENIUMCLIENT = config('SELENIUMCLIENT')
 #starting timer
 print('starting process')
+#getting updated input file
+url = "https://raw.githubusercontent.com/Wamy-Dev/ReziWebsite/main/Input%20Data.txt"
+directory = getcwd()
+r = requests.get(url)
+data = open("./components/Input Data.txt", "wb")
+data.write(r.content)
+data.close()
 #setting up chrome settings
 uc = webdriver
 chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless') #remove hashtag at the start to run in headless mode, must also remove extension for this to work, not recommended
-chrome_options.add_extension('extension_1_38_0_0.crx')
+chrome_options.add_extension('./resources/ublockorigin.crx')
+chrome_options.add_extension('./resources/popupblockerpro.crx')
 chrome_options.add_argument('--no-sandbox') 
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
-#wd = uc.Chrome(executable_path='chromedriver',options=chrome_options) #if local
-wd = uc.Remote(SELENIUMCLIENT, options=chrome_options) #if for remote
+wd = uc.Chrome(executable_path='./resources/chromedriver',options=chrome_options) #if local
+#wd = uc.Remote(SELENIUMCLIENT, options=chrome_options) #if for remote
 json_data={}
 #getting the links and setting up json
 def link_container(site_name,container_tag,class_tag,html,domain):
@@ -68,7 +78,7 @@ def return_next_ele(html,check_element,next_page):
     # next=wd.find_element(By.XPATH,'//a[@class="lcp_nextlink"]')
     return next
 #getting data from input file
-input_file=open('Input Data.txt','r')
+input_file=open('./components/Input Data.txt','r')
 name=input_file.readline().replace("\n","")
 json_data[name]=[]
 while (True):
@@ -104,7 +114,7 @@ while (True):
     if not name: break
 input_file.close()
 #outputting the data to Output.json
-output_file=open("output.json","w")
+output_file=open("./components/output.json","w")
 json_string=json.dumps(json_data)
 output_file.write(json_string)
 output_file.close()
