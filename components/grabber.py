@@ -34,8 +34,8 @@ chrome_options.add_extension('./resources/popupblockerpro.crx')
 chrome_options.add_argument('--no-sandbox') 
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
-wd = uc.Chrome(executable_path='./resources/chromedriver',options=chrome_options) #if local
-#wd = uc.Remote(SELENIUMCLIENT, options=chrome_options) #if for remote
+#wd = uc.Chrome(executable_path='./resources/chromedriver',options=chrome_options) #if local
+wd = uc.Remote(SELENIUMCLIENT, options=chrome_options) #if for remote
 json_data={}
 #getting the links and setting up json
 def link_container(site_name,container_tag,class_tag,html,domain):
