@@ -16,7 +16,6 @@ import requests
 from os import getcwd
 #
 SELENIUMCLIENT = config('SELENIUMCLIENT')
-#starting timer
 print('starting process')
 #getting updated input file
 url = "https://raw.githubusercontent.com/Wamy-Dev/ReziWebsite/main/Input%20Data.txt"
@@ -33,8 +32,8 @@ chrome_options.add_extension('./resources/ublockorigin.crx')
 chrome_options.add_extension('./resources/popupblockerpro.crx')
 chrome_options.add_argument('--no-sandbox') 
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
-#wd = uc.Chrome(executable_path='./resources/chromedriver',options=chrome_options) #if local
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36")
+#wd = uc.Chrome(executable_path='./resources/chromedriver',options=chrome_options) #if local, make sure 
 wd = uc.Remote(SELENIUMCLIENT, options=chrome_options) #if for remote
 json_data={}
 #getting the links and setting up json
