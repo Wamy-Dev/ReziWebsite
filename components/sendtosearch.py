@@ -1,6 +1,8 @@
 import meilisearch
+import requests
 import json
 import os
+from datetime import datetime
 import decouple
 from decouple import config
 #
@@ -20,5 +22,5 @@ try:
 	now=datetime.now()
 	current_time = now.strftime("%H:%M:%S")
 	requests.post(CRONMONITORING, data=f'Time finished: {current_time}.')
-except:
-	print("Cannot send ping.")
+except requests.RequestException as e:
+	print("Ping failed: %s" % e)
