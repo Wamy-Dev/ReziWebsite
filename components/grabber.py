@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.common.exceptions import TimeoutException
-from selenium_stealth import stealth
 import random
 import json
 import time
@@ -39,14 +38,6 @@ chrome_options.add_experimental_option('useAutomationExtension', False)
 chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36")
 #wd = uc.Chrome(executable_path='./resources/chromedriver',options=chrome_options) #if local, make sure 
 wd = uc.Remote(SELENIUMCLIENT, options=chrome_options) #if for remote
-stealth(wd,
-        languages=["en-US", "en"],
-        vendor="Google Inc.",
-        platform="Win32",
-        webgl_vendor="Intel Inc.",
-        renderer="Intel Iris OpenGL Engine",
-        fix_hairline=True,
-        )
 json_data={}
 #getting the links and setting up json
 def link_container(site_name,container_tag,class_tag,html,domain):
