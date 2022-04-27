@@ -7,7 +7,7 @@ lcp_nextlink
 smart_push_smio_not_allow
 marked
 https://gog-games.com/search/all/1/title/asc/any/
-https://gog-games.com/
+https://gog-games.com
 div
 game-blocks grid-view
 btn
@@ -146,22 +146,8 @@ directory-listing-table
 null
 null
 marked
-https://ia801800.us.archive.org/view_archive.php?archive=/14/items/2020_01_06_fbn/roms/arcade.zip/
-
-table
-archext
-null
-null
-marked
 https://archive.org/download/No-Intro-Collection_2016-01-03_Fixed/
 https://archive.org/download/No-Intro-Collection_2016-01-03_Fixed/
-table
-directory-listing-table
-null
-null
-marked
-https://archive.org/download/tosec-2021-02-14-to-2021-08-08-update/TOSEC%20%282021-02-14%20to%202021-08-08%29/
-https://archive.org/download/tosec-2021-02-14-to-2021-08-08-update/TOSEC%20%282021-02-14%20to%202021-08-08%29/
 table
 directory-listing-table
 null
