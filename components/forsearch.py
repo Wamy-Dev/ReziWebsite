@@ -1,6 +1,7 @@
 import json
 import random
 import string
+from urllib.parse import unquote
 def listToString(s): 
     # initialize an empty string
     str1 = "" 
@@ -39,6 +40,7 @@ for k in data.keys():
       name= j.split("_")
     name = [nam.title() for nam in name ]
     name = listToString(name)
+    name = unquote(name)
     # print(sub_k.replace("https://",""), j, name)
     lst.append({"id":ID, "basename":name.replace("%",""),"link":sub_k.replace("https://","")})
   dic[key] = lst
