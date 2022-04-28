@@ -69,13 +69,6 @@ listing-item
 null
 null
 marked
-https://gamesmountain.com/playstation_3/
-https://gamesmountain.com/
-h2
-entry-title
-next page-numbers
-null
-marked
 https://dlpsgame.org/list-all-game-ps3/
 https://dlpsgame.org/
 li
@@ -101,13 +94,6 @@ https://hexrom.com/roms/microsoft-xbox/
 https://hexrom.com/
 div
 col-lg-4 col-sm-6 col-xs-12
-next page-numbers
-null
-marked
-https://gamesmountain.com/xbox_360_game/
-https://gamesmountain.com/
-h2
-entry-title
 next page-numbers
 null
 marked
