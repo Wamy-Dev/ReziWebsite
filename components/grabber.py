@@ -30,7 +30,6 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless') #remove hashtag at the start to run in headless mode, must also remove extension for this to work, not recommended
 chrome_options.add_extension('./resources/ublockorigin.crx')
 chrome_options.add_extension('./resources/popupblockerpro.crx')
-chrome_options.add_argument('--no-sandbox') 
 chrome_options.add_argument("start-maximized")
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
