@@ -450,6 +450,6 @@ marked
 https://hshop.erista.me/content?cat=games&subcat=na
 https://hshop.erista.me/
 div
-content-list
+content
 null
 null
