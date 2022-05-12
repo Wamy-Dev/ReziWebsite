@@ -41,8 +41,15 @@ for k in data.keys():
     name = [nam.title() for nam in name ]
     name = listToString(name)
     name = unquote(name)
+    name = name.replace(".Html", "")
+    name = name.replace(".zip", "")
+    name = name.replace(".Rvz", "")
+    name = name.replace(".Zip", "")
+    name = name.replace("   ", " ")
+    name = name.replace(".7Z", "")
+    name = name.replace(".3Ds", "")
     # print(sub_k.replace("https://",""), j, name)
-    lst.append({"id":ID, "basename":name.replace("%",""),"link":sub_k.replace("https://","")})
+    lst.append({"id":ID, "basename":name,"link":sub_k.replace("https://","")})
   dic[key] = lst
   # comment next two lines, if you want output for all objects. This 'IF' is just for three objects to check output
   #if count==3:
