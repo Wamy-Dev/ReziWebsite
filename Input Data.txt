@@ -446,10 +446,3 @@ table
 directory-listing-table
 null
 null
-marked
-https://hshop.erista.me/content?cat=games&subcat=na
-https://hshop.erista.me/
-div
-content
-null
-null
