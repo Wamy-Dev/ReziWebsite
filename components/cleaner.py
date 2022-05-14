@@ -18,7 +18,7 @@ except:
 
 #Automated version, used on multiple keys and targets
 try: 
-  targets = {'marked':['https://masquerade.site#a-z-listing-1'],'marked':['https://nsw2u.xyz/#a-z-listing-2'],'marked':['https://madloader.com/request/'],'marked':['https://nxbrew.com/#a-z-listing-1'],'marked':['https://archive.org/download/mame-merged/mame-merged/../']}#add pairs here, or structure differently up to you format: 'key2':['target1','target2']
+  targets = {'marked':['https://masquerade.site#a-z-listing-1'],'marked':['https://nsw2u.xyz/#a-z-listing-2'],'marked':['https://madloader.com/request/'],'marked':['https://nxbrew.com/#a-z-listing-1'],'marked':['https://archive.org/download/mame-merged/mame-merged/../'],'marked':['https://game-2u.com/Category/update'],'marked':['https://game-2u.com/Category/nes'],}#add pairs here, or structure differently up to you format: 'key2':['target1','target2']
   for target_key,target_strings in targets.items():
       strings[target_key] = [s for s in strings[target_key] if s not in target_strings]
   with open("./components/outputcleaned.json", "w", encoding="utf-8") as file:#dumps to new json file to be used in totable.py
