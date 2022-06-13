@@ -446,3 +446,66 @@ table
 directory-listing-table
 null
 null
+marked
+https://steamrip.com/games-list/
+https://steamrip.com/
+ul
+az-list-item
+null
+null
+marked
+https://dodi-repacks.site/index.php/all-my-repacks-a-z/
+https://dodi-repacks.site/
+div
+entry-content
+null
+null
+marked
+https://gamesdrive.net/Forum-Community-Repacks
+https://gamesdrive.net/
+span
+subject_new
+pagination_next
+null
+marked
+https://scooter-repacks.site/all-my-repacks/
+https://scooter-repacks.site/
+ul
+az-columns max-7-columns
+null
+null
+marked
+https://scene.crackhub.site/category/ps4/
+https://scene.crackhub.site/
+div
+entry-summary
+next page-numbers
+null
+marked
+https://scene.crackhub.site/category/0day/
+https://scene.crackhub.site/
+div
+entry-summary
+next page-numbers
+null
+marked
+https://scene.crackhub.site/category/macos/
+https://scene.crackhub.site/
+div
+entry-summary
+next page-numbers
+null
+marked
+https://scene.crackhub.site/category/iso/
+https://scene.crackhub.site/
+div
+entry-summary
+next page-numbers
+null
+marked
+https://scene.crackhub.site/category/scene/
+https://scene.crackhub.site/
+div
+entry-summary
+next page-numbers
+null
