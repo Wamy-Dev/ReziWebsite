@@ -1,9 +1,7 @@
 import meilisearch
 import requests
 import json
-import os
 from datetime import datetime
-import decouple
 from decouple import config
 #
 SEARCHCLIENT = config('SEARCHCLIENT')

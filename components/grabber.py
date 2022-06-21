@@ -1,42 +1,32 @@
 #Libraries and importing
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+import undetected_chromedriver as uc
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.common.exceptions import TimeoutException
 import random
 import json
 import time
-import decouple
 from decouple import config
 import requests
 from os import getcwd
 #
-SELENIUMCLIENT = config('SELENIUMCLIENT')
 print('starting process')
 #getting updated input file
 url = "https://raw.githubusercontent.com/Wamy-Dev/ReziWebsite/main/Input%20Data.txt"
-directory = getcwd()
 r = requests.get(url)
 data = open("./components/Input Data.txt", "wb")
 data.write(r.content)
 data.close()
 #setting up chrome settings
-uc = webdriver
-chrome_options = webdriver.ChromeOptions()
-#chrome_options.add_argument('--headless') #remove hashtag at the start to run in headless mode, must also remove extension for this to work, not recommended
+chrome_options = uc.ChromeOptions()
 chrome_options.add_extension('./resources/ublockorigin.crx')
 chrome_options.add_extension('./resources/popupblockerpro.crx')
-chrome_options.add_argument("start-maximized")
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-chrome_options.add_experimental_option('useAutomationExtension', False)
+chrome_options.arguments.extend(["--no-sandbox", "--disable-setuid-sandbox"])
 chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36")
-#wd = uc.Chrome(executable_path='./resources/chromedriver',options=chrome_options) #if local, make sure 
-wd = uc.Remote(SELENIUMCLIENT, options=chrome_options) #if for remote
+wd = uc.Chrome(chrome_options) #if in docker container
 json_data={}
 #getting the links and setting up json
 def link_container(site_name,container_tag,class_tag,html,domain):

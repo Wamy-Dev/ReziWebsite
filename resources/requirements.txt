@@ -1,6 +1,6 @@
 beautifulsoup4
 selenium
-selenium-stealth
+undetected-chromedriver
 output
 meilisearch
 python-decouple
