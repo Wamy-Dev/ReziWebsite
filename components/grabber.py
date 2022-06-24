@@ -26,7 +26,7 @@ chrome_options.add_extension('./resources/popupblockerpro.crx')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.arguments.extend(["--no-sandbox", "--disable-setuid-sandbox"])
 chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36")
-wd = uc.Chrome(chrome_options) #if in docker container
+wd = uc.Chrome(chrome_options, version_main=102) #if in docker container
 json_data={}
 #getting the links and setting up json
 def link_container(site_name,container_tag,class_tag,html,domain):
