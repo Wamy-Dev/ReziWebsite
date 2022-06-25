@@ -24,7 +24,7 @@ Good question! If you would like to help you can either donate (helps me out a l
 #
 
 ##### This website was made by me, Wamy.
-##### If you want to contact me: [My personal contact page](https://homeonacloud.com/pages/contactme.html)
-##### If you want to donate to show your thanks: [My personal donation page](https://homeonacloud.com/pages/donate.html)
+##### If you want to contact me: [My personal contact page](https://homeonacloud.com/contact)
+##### If you want to donate to show your thanks: [My personal donation page](https://homeonacloud.com/donate)
 ##### This project was made with community in mind, please be nice and don't steal my work.
 
