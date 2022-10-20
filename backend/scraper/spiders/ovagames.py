@@ -6,7 +6,7 @@ from uuid import uuid4
 
 class OvaGamesSpider(scrapy.Spider):
     # json file with inputs
-    f = open('input.json')
+    f = open('!input.json')
     data = json.load(f)
     name = "ovagamesspider"
     allowed_domains = ["ovagames.com"]
