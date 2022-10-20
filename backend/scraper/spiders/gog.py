@@ -2,6 +2,7 @@ import scrapy
 from scraper.items import GameItem
 from datetime import datetime
 from uuid import uuid4
+from urllib.parse import unquote
 
 class GogSpider(scrapy.Spider):
 
@@ -21,6 +22,6 @@ class GogSpider(scrapy.Spider):
             link = game.css("::attr(href)").get()
             game_item = GameItem()
             game_item["link"] = f"https://gog-games.com/{link}"
-            game_item["title"] = game.css("div.info span.title ::text").get()
+            game_item["title"] = unquote(game.css("div.info span.title ::text").get())
             game_item["id"] = datetime.now().strftime('%Y%m-%d%H-%M%S-') + str(uuid4())
             yield game_item

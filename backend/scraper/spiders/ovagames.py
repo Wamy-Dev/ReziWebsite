@@ -3,6 +3,7 @@ import json
 from scraper.items import GameItem
 from datetime import datetime
 from uuid import uuid4
+from urllib.parse import unquote
 
 class OvaGamesSpider(scrapy.Spider):
     # json file with inputs
@@ -30,6 +31,6 @@ class OvaGamesSpider(scrapy.Spider):
             game_item = GameItem()
             link = game.css("a ::attr(href)").get()
             game_item["link"] = link
-            game_item["title"] = game.css("a ::text").get().strip()
+            game_item["title"] = unquote(game.css("a ::text").get().strip())
             game_item["id"] = datetime.now().strftime('%Y%m-%d%H-%M%S-') + str(uuid4())
             yield game_item

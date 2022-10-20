@@ -1,9 +1,9 @@
-from urllib import request
 import scrapy
 import json
 from scraper.items import GameItem
 from datetime import datetime
 from uuid import uuid4
+from urllib.parse import unquote
 
 class MadloaderSpider(scrapy.Spider):
     # json file with inputs
@@ -30,6 +30,6 @@ class MadloaderSpider(scrapy.Spider):
             game_item = GameItem()
             link = game.css("::attr(href)").get()
             game_item["link"] = link
-            game_item["title"] = game.css("::text").get()
+            game_item["title"] = unquote(game.css("::text").get())
             game_item["id"] = datetime.now().strftime('%Y%m-%d%H-%M%S-') + str(uuid4())
             yield game_item

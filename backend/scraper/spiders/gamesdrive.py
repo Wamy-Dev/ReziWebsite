@@ -32,6 +32,6 @@ class GamesdriveSpider(scrapy.Spider):
             game_item = GameItem()
             link = game.css("::attr(href)").get()
             game_item["link"] = f'https://gamesdrive.net/{link}'
-            game_item["title"] = game.css("::text").get().split("|")[0].replace(".", " ").split("( ")[0]
+            game_item["title"] = unquote(game.css("::text").get().split("|")[0].replace(".", " ").split("( ")[0])
             game_item["id"] = datetime.now().strftime('%Y%m-%d%H-%M%S-') + str(uuid4())
             yield game_item

@@ -3,6 +3,7 @@ import json
 from scraper.items import GameItem
 from datetime import datetime
 from uuid import uuid4
+from urllib.parse import unquote
 
 class ArchiveSpider(scrapy.Spider):
     # json file with inputs
@@ -22,6 +23,6 @@ class ArchiveSpider(scrapy.Spider):
             game_item = GameItem()
             link = game.css("td a ::attr(href)").get()
             game_item["link"] = response.request.url + "/" + link
-            game_item["title"] = game.css("td a ::text").get()
+            game_item["title"] = unquote(game.css("td a ::text").get())
             game_item["id"] = datetime.now().strftime('%Y%m-%d%H-%M%S-') + str(uuid4())
             yield game_item
