@@ -1,0 +1,4 @@
+meilisearch
+python-decouple
+requests
+Scrapy
