@@ -35,6 +35,10 @@ current_time = now.strftime("%H:%M:%S")
 print(f"Time started: {current_time}.")
 CRONMONITORING = config("CRONMONITORING")
 #scraper
+if os.path.exists("rezi.csv"):
+  os.remove("rezi.csv")
+else:
+  print("First run initiated.")
 crawler = CrawlerProcess(get_project_settings())
 crawler.crawl(AbandonwareSpider) # https://myabandonware.com
 crawler.crawl(ArchiveSpider) # https://archive.org
@@ -57,9 +61,8 @@ client = meilisearch.Client(SEARCHCLIENT, SEARCHCLIENTKEY)
 index = client.index('rezi')
 csvfile = open('rezi.csv', 'r')
 data = csvfile.read()
-client.index('rezi').delete_all_documents()
+index.delete_all_documents()
 index.add_documents_csv(data.encode('utf-8'))
-# os.remove("rezi.csv")
 # finishing
 print("### Finished ###")
 try:
