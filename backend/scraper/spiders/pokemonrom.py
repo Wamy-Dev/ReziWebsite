@@ -7,7 +7,7 @@ from urllib.parse import unquote
 
 class PokemonromSpider(scrapy.Spider):
     # json file with inputs
-    f = open('!input.json')
+    f = open('input.json')
     data = json.load(f)
     name = "pokemonromspider"
     allowed_domains = ["pokemonrom.net"]

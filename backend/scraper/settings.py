@@ -60,6 +60,12 @@ TELNETCONSOLE_ENABLED = False
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-ITEM_PIPELINES = {
-    "scraper.pipelines.MeiliPipeline": 200,
+# ITEM_PIPELINES = {
+#     "scraper.pipelines.BasicPipeline": 200,
+# }
+FEEDS = {
+    'rezi.csv': {
+        'format': 'csv',
+        'encoding': 'utf8',
+        }
 }

@@ -7,7 +7,7 @@ from urllib.parse import unquote
 
 class MadloaderSpider(scrapy.Spider):
     # json file with inputs
-    f = open('!input.json')
+    f = open('input.json')
     data = json.load(f)
     name = "madloaderspider"
     allowed_domains = ["madloader.com"]
