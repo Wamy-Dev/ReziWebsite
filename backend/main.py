@@ -13,7 +13,9 @@ from datetime import datetime
 import requests
 import meilisearch
 from decouple import config
+import requests
 import os
+import time
 # scrapers
 from scraper.spiders.abandonware import AbandonwareSpider
 from scraper.spiders.archive import ArchiveSpider
@@ -39,6 +41,7 @@ if os.path.exists("rezi.csv"):
   os.remove("rezi.csv")
 else:
   print("First run initiated.")
+
 crawler = CrawlerProcess(get_project_settings())
 crawler.crawl(AbandonwareSpider) # https://myabandonware.com
 crawler.crawl(ArchiveSpider) # https://archive.org
@@ -62,6 +65,7 @@ index = client.index('rezi')
 csvfile = open('rezi.csv', 'r')
 data = csvfile.read()
 index.delete_all_documents()
+time.sleep(5)
 index.add_documents_csv(data.encode('utf-8'))
 # finishing
 print("### Finished ###")
