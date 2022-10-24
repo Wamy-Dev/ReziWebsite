@@ -16,6 +16,6 @@ class SteamripSpider(scrapy.Spider):
             game_item = GameItem()
             link = game.css("::attr(href)").get()
             game_item["link"] = f"https://steamrip.com{link}"
-            game_item["title"] = unquote(game.css("::text").get())
-            game_item["id"] = datetime.now().strftime('%Y%m-%d%H-%M%S-') + str(uuid4())
+            game_item["title"] = unquote(game.css("::text").get()).replace("Free Download", "")
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             yield game_item

@@ -32,5 +32,5 @@ class OvaGamesSpider(scrapy.Spider):
             link = game.css("a ::attr(href)").get()
             game_item["link"] = link
             game_item["title"] = unquote(game.css("a ::text").get().strip())
-            game_item["id"] = datetime.now().strftime('%Y%m-%d%H-%M%S-') + str(uuid4())
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             yield game_item
