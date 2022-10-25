@@ -35,6 +35,25 @@
         "https://madloader.com/psp/psp-minis-games/",
         "https://madloader.com/pc-games/"
     ],
+    "playablearchive.org": [
+        {"type": "mgba", "games": "https://archive.org/download/nds_apfix/apfix/", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"},
+        {"type": "melonds", "games": "https://archive.org/download/no-ndsdec2021", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"},
+        {"type": "atari2600", "games": "https://archive.org/download/nointro.atari-2600"},
+        {"type": "atari5200", "games":"https://archive.org/download/nointro.atari-5200"},
+        {"type": "atari7800", "games": "https://archive.org/download/nointro.atari-7800"},
+        {"type": "pce", "games": "https://archive.org/download/nointro.tg-16", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/NEC%20-%20PC%20Engine%20-%20SuperGrafx%20-%20CD%20%28Beetle%20PCE%20-%20PCE%20Fast%20-%20SGX%29.zip/syscard3.pce"},
+        {"type": "fceumm", "games": "http://archive.org/download/nointro.fds", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20NES%20-%20Famicom%20%28FCEUmm%20-%20Mesen%29.zip/disksys.rom"},
+        {"type": "mgba", "games": "https://archive.org/download/nointro.gba-multiboot", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gba_bios.bin"},
+        {"type": "mgba", "games": "https://archive.org/download/nointro.gba", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gba_bios.bin"},
+        {"type": "mgba", "games": "https://archive.org/download/nointro.gb", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gb_bios.bin"},
+        {"type": "mgba", "games": "https://archive.org/download/nointro.gbc", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gbc_bios.bin"},
+        {"type": "n64", "games": "https://archive.org/download/nointro.n64"},
+        {"type": "jaguar", "games": "https://archive.org/download/redump.jaguar.revival"},
+        {"type": "vb", "games": "https://archive.org/download/nointro.vb"},
+        {"type": "fceumm", "games": "https://archive.org/download/nointro.nes", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20NES%20-%20Famicom%20%28FCEUmm%20-%20Mesen%29.zip/disksys.rom"},
+        {"type": "snes", "games": "https://archive.org/download/nointro.snes"},
+        {"type": "arcade", "games": "https://archive.org/download/mame-merged/mame-merged/"}
+    ],
     "archive.org": [
         "https://archive.org/download/xboxrepo0-Calt",
         "https://archive.org/download/xboxrepoD-F",
@@ -314,18 +333,5 @@
         "https://archive.org/download/PS3_PSN_2",
         "https://archive.org/download/PSVITA_VPK",
         "https://archive.org/download/PSVITA_MAIDUMP"
-
-
-
-
-
-
-
-
-
-
-
-
-
     ]
 }
