@@ -15,9 +15,11 @@ class ArchivePlayableSpider(scrapy.Spider):
 
     def start_requests(self):
         for item in self.urls:
-            request = scrapy.Request(item["games"], callback=self.parse_page)
-            request.cb_kwargs['bios'] = item["bios"]
-            request.cb_kwargs['type'] = item["type"]
+            request = scrapy.Request(item["games"], callback=self.parse_page, cb_kwargs=dict(type=item["type"]))
+            try:
+                request.cb_kwargs["bios"] = "bios"
+            except:
+                request.cb_kwargs["bios"] = None
             yield request
         
     def parse_page(self, response, type, bios):
