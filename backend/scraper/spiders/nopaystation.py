@@ -29,16 +29,16 @@ class NoPayStationSpider(scrapy.Spider):
             system = game.css("span.badge-secondary ::text").get()
             if system == "PS3":
                 system = ["ps3", "playstation 3"]
-                icon = ["PlayStation 3"]
+                icon = ["Playstation 3"]
             elif system == "PSV":
                 system = ["psv", "playstation vita", "vita"]
-                icon = ["PlayStation Vita"]
+                icon = ["Playstation Vita"]
             elif system == "PSP":
                 system = ["psp", "playstation portable"]
-                icon = ["PlayStation Portable"]
+                icon = ["Playstation Portable"]
             elif system == "PSX":
                 system = ["psx", "playstation", "playstation 1"]
-                icon = ["PlayStation 1"]
+                icon = ["Playstation 1"]
             elif system == "PSM":
                 system = ["psm", "playstation move", "playstation vr"]
                 icon = ["Playstation Move"]
