@@ -13,7 +13,7 @@
         {"icon": "Gameboy Advance", "system": ["gba"], "games": "https://pokemonrom.net/category/pokemon-gba-roms/"},
         {"icon": "DS", "system": ["ds", "nds", "DS"], "games": "https://pokemonrom.net/category/pokemon-nds-roms/"},
         {"icon": "3DS", "system": ["3ds", "n3ds", "3DS"], "games": "https://pokemonrom.net/category/pokemon-3ds-roms/"},
-        {"icon": "Gamecube", "system": ["gamecube", "gc", "nintendo gamecube"], "games": "https://pokemonrom.net/category/pokemon-gamecube-roms/"}
+        {"icon": "GameCube", "system": ["gamecube", "gc", "nintendo gamecube"], "games": "https://pokemonrom.net/category/pokemon-gamecube-roms/"}
     ],
     "ovagames.com": [
         {"icon": "PC", "system": ["pc", "gog"], "games": "https://www.ovagames.com/category/gog"},
