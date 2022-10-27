@@ -18,4 +18,6 @@ class SteamripSpider(scrapy.Spider):
             game_item["link"] = f"https://steamrip.com{link}"
             game_item["title"] = unquote(game.css("::text").get()).replace("Free Download", "")
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["icon"] = "PC"
+            game_item["system"] = ["pc", "repacks"]
             yield game_item

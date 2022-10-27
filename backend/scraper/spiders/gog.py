@@ -24,4 +24,6 @@ class GogSpider(scrapy.Spider):
             game_item["link"] = f"https://gog-games.com/{link}"
             game_item["title"] = unquote(game.css("div.info span.title ::text").get())
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["system"] = ["pc", "gog"]
+            game_item["icon"] = "PC"
             yield game_item

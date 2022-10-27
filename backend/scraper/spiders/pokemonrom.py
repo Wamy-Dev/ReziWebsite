@@ -13,16 +13,18 @@ class PokemonromSpider(scrapy.Spider):
     allowed_domains = ["pokemonrom.net"]
     start_urls = data["pokemonrom.net"]
     
-    def parse(self, response):
-        for url in self.start_urls:
-            yield scrapy.Request(url, callback=self.parse_page)
+    def start_requests(self):
+        for item in self.start_urls:
+            yield scrapy.Request(item["games"], callback=self.parse_page, cb_kwargs=dict(system=item["system"], icon=item["icon"]))
 
-    def parse_page(self, response):
+    def parse_page(self, response, icon, system):
         list = response.css("div.vce-loop-wrap article h2.entry-title a")
         for game in list:
             game_item = GameItem()
             link = game.css("::attr(href)").get()
             game_item["link"] = link
-            game_item["title"] = unquote(game.css("::text").get())
+            game_item["title"] = unquote(game.css("::text").get()).replace("ROM", "")
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["icon"] = icon
+            game_item["system"] = system
             yield game_item

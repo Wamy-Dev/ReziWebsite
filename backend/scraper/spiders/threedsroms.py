@@ -17,10 +17,21 @@ class ThreeDSRomsSpider(scrapy.Spider):
             if int(current_page) == 1:
                 for page_number in range(2, int(total_pages) + 1):
                     yield response.follow(url=f'https://3dsroms.org/page/{page_number}/')
-        list = response.css("table.rom_listing_table tr td a")
+        list = response.css("table.rom_listing_table tr")
         for game in list:
             game_item = GameItem()
-            game_item["link"] = game.css("::attr(href)").get()
-            game_item["title"] = unquote(game.css("::text").get().strip())
+            titleitem = game.css("td a ::text").getall()
+            for each in titleitem:
+                if len(each) > 1 and each != "":
+                    game_item["title"] = unquote(each.strip())
+                else:
+                    continue
+            link = game.css("td a ::attr(href)").get()
+            if link:
+                game_item["link"] = game.css("td a ::attr(href)").get()
+            else:
+                continue
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["icon"] = "3DS"
+            game_item["system"] = ["3ds", "nintendo 3ds", "n3ds"]
             yield game_item

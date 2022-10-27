@@ -26,9 +26,30 @@ class NoPayStationSpider(scrapy.Spider):
                     yield response.follow(url=f'https://nopaystation.com/search?query=&limit=100&orderBy=completionDate&sort=DESC&missing=Hide&page={page_number}')
         list = response.css("table.resultsTable td")
         for game in list:
+            system = game.css("span.badge-secondary ::text").get()
+            if system == "PS3":
+                system = ["ps3", "playstation 3"]
+                icon = ["PlayStation 3"]
+            elif system == "PSV":
+                system = ["psv", "playstation vita", "vita"]
+                icon = ["PlayStation Vita"]
+            elif system == "PSP":
+                system = ["psp", "playstation portable"]
+                icon = ["PlayStation Portable"]
+            elif system == "PSX":
+                system = ["psx", "playstation", "playstation 1"]
+                icon = ["PlayStation 1"]
+            elif system == "PSM":
+                system = ["psm", "playstation move", "playstation vr"]
+                icon = ["Playstation Move"]
+            else:
+                system = []
+                icon = []
             link = game.css("a ::attr(href)").get()
             game_item = GameItem()
             game_item["link"] = f"https://nopaystation.com{link}"
             game_item["title"] = unquote(game.css("a ::text").get())
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["system"] = system
+            game_item["icon"] = icon
             yield game_item

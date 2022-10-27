@@ -24,4 +24,6 @@ class AbandonwareSpider(scrapy.Spider):
             game_item["link"] = f"https://myabandonware.com{link}"
             game_item["title"] = unquote(game.css("::text").get())
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["system"] = ["arcade", "mame", "rom"]
+            game_item["icon"] = "Arcade"
             yield game_item

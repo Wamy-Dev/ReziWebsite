@@ -13,16 +13,21 @@ class ArchiveSpider(scrapy.Spider):
     allowed_domains = ["archive.org"]
     start_urls = data["archive.org"]
     
-    def parse(self, response):
-        for url in self.start_urls:
-            yield scrapy.Request(url, callback=self.parse_page)
+    def start_requests(self):
+        for item in self.start_urls:
+            yield scrapy.Request(item["games"], callback=self.parse_page, cb_kwargs=dict(system=item["system"], icon=item["icon"]))
 
-    def parse_page(self, response):
+    def parse_page(self, response, system, icon):
         list = response.css("table.directory-listing-table tr")
         for game in list:
             game_item = GameItem()
             link = game.css("td a ::attr(href)").get()
+            title = unquote(game.css("td a ::text").get())
+            if title == " Go to parent directory" or title.endswith(".jpg") or title.endswith(".torrent") or title.endswith(".xml") or title.endswith(".sqlite") or title.endswith(".txt"):
+                continue
             game_item["link"] = response.request.url + "/" + link
-            game_item["title"] = unquote(game.css("td a ::text").get())
+            game_item["title"] = title
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["system"] = system
+            game_item["icon"] = icon
             yield game_item

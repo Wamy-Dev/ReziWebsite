@@ -18,4 +18,6 @@ class ScooterRepacksSpider(scrapy.Spider):
             game_item["link"] = link
             game_item["title"] = unquote(game.css("::text").get().strip().split(" (")[0])
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["icon"] = "PC"
+            game_item["system"] = ["pc", "repacks"]
             yield game_item

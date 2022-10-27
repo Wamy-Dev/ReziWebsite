@@ -14,18 +14,18 @@ class OvaGamesSpider(scrapy.Spider):
     start_urls = data["ovagames.com"]
 
     def start_requests(self):
-        for url in self.start_urls:
-            yield scrapy.Request(url=url, callback=self.getpages)
+        for item in self.start_urls:
+            yield scrapy.Request(url=item["games"], callback=self.getpages, cb_kwargs=dict(system=item["system"], icon=item["icon"]))
 
-    def getpages(self, response):
+    def getpages(self, response, icon, system):
             total_pages = response.css("span.pages ::text").get().split(" ")[-1]
             current_page = response.css("span.current ::text").get()
             if total_pages and current_page:
                 if int(current_page) == 1:
                     for page_number in range(2, int(total_pages) + 1):
-                        yield scrapy.Request(url=f'{response.request.url}/page/{page_number}', callback=self.parse_page)
+                        yield scrapy.Request(url=f'{response.request.url}/page/{page_number}', callback=self.parse_page, cb_kwargs=dict(system=system, icon=icon))
 
-    def parse_page(self, response):
+    def parse_page(self, response, icon, system):
         list = response.css("div.post-wrapper")
         for game in list:
             game_item = GameItem()
@@ -33,4 +33,6 @@ class OvaGamesSpider(scrapy.Spider):
             game_item["link"] = link
             game_item["title"] = unquote(game.css("a ::text").get().strip())
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["icon"] = icon
+            game_item["system"] = system
             yield game_item

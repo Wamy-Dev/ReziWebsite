@@ -17,4 +17,6 @@ class XciNspSpider(scrapy.Spider):
             game_item["link"] = game.css("a ::attr(href)").get()
             game_item["title"] = unquote(game.css("a ::text").get())
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["icon"] = "Switch"
+            game_item["system"] = ["switch", "nintendo switch"]
             yield game_item
