@@ -31,6 +31,7 @@ from scraper.spiders.steamrip import SteamripSpider
 from scraper.spiders.threedsroms import ThreeDSRomsSpider
 from scraper.spiders.xcinsp import XciNspSpider
 from scraper.spiders.playablearchive import ArchivePlayableSpider
+from scraper.spiders.nsw2u import Nsw2uSpider
 #time
 now=datetime.now()
 current_time = now.strftime("%H:%M:%S")
@@ -57,6 +58,7 @@ crawler.crawl(SteamripSpider) # https://steamrip.com
 crawler.crawl(ThreeDSRomsSpider) # https://3dsroms.com
 crawler.crawl(XciNspSpider) # https://xcinsp.com
 crawler.crawl(ArchivePlayableSpider) # https://archive.org
+crawler.crawl(Nsw2uSpider) # https://nsw2u.com
 crawler.start()
 #meilisearch
 SEARCHCLIENT = config("SEARCHCLIENT")
@@ -69,11 +71,11 @@ index.delete_all_documents()
 time.sleep(5)
 index.add_documents_csv(data.encode('utf-8'))
 # finishing
-print("### Finished ###")
 try:
 	now=datetime.now()
 	current_time = now.strftime("%H:%M:%S")
 	requests.post(CRONMONITORING, data=f'Time finished: {current_time}.')
 except requests.RequestException as e:
 	print("Ping failed: %s" % e)
+print("### Finished ###")
 
