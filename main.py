@@ -16,6 +16,11 @@ from decouple import config
 import requests
 import os
 import time
+import json
+#input file
+file = requests.get("https://raw.githubusercontent.com/Wamy-Dev/ReziWebsite/main/input.json")
+with open("input.json", "w") as json_file:
+	json.dump(file.json(), json_file, indent=4)
 # scrapers
 from scraper.spiders.abandonware import AbandonwareSpider
 from scraper.spiders.archive import ArchiveSpider
@@ -42,7 +47,6 @@ if os.path.exists("rezi.csv"):
   os.remove("rezi.csv")
 else:
   print("First run initiated.")
-
 crawler = CrawlerProcess(get_project_settings())
 crawler.crawl(AbandonwareSpider) # https://myabandonware.com
 crawler.crawl(ArchiveSpider) # https://archive.org
@@ -70,7 +74,7 @@ data = csvfile.read()
 index.delete_all_documents()
 time.sleep(5)
 index.add_documents_csv(data.encode('utf-8'))
-# finishing
+#finishing
 try:
 	now=datetime.now()
 	current_time = now.strftime("%H:%M:%S")

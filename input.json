@@ -1,318 +1,2631 @@
 {
     "gamesdrive.net": [
-        {"icon": "PC", "system": ["pc", "dodi", "repack"], "games": "https://gamesdrive.net/Forum-DODI-Repacks"},
-        {"icon": "PC", "system": ["pc", "chovka", "repack"], "games": "https://gamesdrive.net/Forum-Chovka-Repacks"},
-        {"icon": "PC", "system": ["pc", "repack"], "games": "https://gamesdrive.net/Forum-Community-Repacks"},
-        {"icon": "PC", "system": ["pc", "masquerade", "repack"], "games": "https://gamesdrive.net/Forum-Masquerade-Repacks"},
-        {"icon": "PC", "system": ["pc", "xatab", "repack"], "games": "https://gamesdrive.net/Forum-Xatab-Repacks"},
-        {"icon": "PC", "system": ["pc", "repack"], "games": "https://gamesdrive.net/Forum-ISO-DOX"},
-        {"icon": "PC", "system": ["pc", "repack"], "games": "https://gamesdrive.net/Forum-Retro"},
-        {"icon": "PC", "system": ["pc", "repack"], "games": "https://gamesdrive.net/Forum-0-Day"}
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "dodi",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-DODI-Repacks"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "chovka",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-Chovka-Repacks"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-Community-Repacks"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "masquerade",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-Masquerade-Repacks"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "xatab",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-Xatab-Repacks"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-ISO-DOX"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-Retro"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "repack"
+            ],
+            "games": "https://gamesdrive.net/Forum-0-Day"
+        }
     ],
     "pokemonrom.net": [
-        {"icon": "Gameboy Advance", "system": ["gba"], "games": "https://pokemonrom.net/category/pokemon-gba-roms/"},
-        {"icon": "DS", "system": ["ds", "nds", "DS"], "games": "https://pokemonrom.net/category/pokemon-nds-roms/"},
-        {"icon": "3DS", "system": ["3ds", "n3ds", "3DS"], "games": "https://pokemonrom.net/category/pokemon-3ds-roms/"},
-        {"icon": "GameCube", "system": ["gamecube", "gc", "nintendo gamecube"], "games": "https://pokemonrom.net/category/pokemon-gamecube-roms/"}
+        {
+            "icon": "Gameboy Advance",
+            "system": [
+                "gba"
+            ],
+            "games": "https://pokemonrom.net/category/pokemon-gba-roms/"
+        },
+        {
+            "icon": "DS",
+            "system": [
+                "ds",
+                "nds",
+                "DS"
+            ],
+            "games": "https://pokemonrom.net/category/pokemon-nds-roms/"
+        },
+        {
+            "icon": "3DS",
+            "system": [
+                "3ds",
+                "n3ds",
+                "3DS"
+            ],
+            "games": "https://pokemonrom.net/category/pokemon-3ds-roms/"
+        },
+        {
+            "icon": "GameCube",
+            "system": [
+                "gamecube",
+                "gc",
+                "nintendo gamecube"
+            ],
+            "games": "https://pokemonrom.net/category/pokemon-gamecube-roms/"
+        }
     ],
     "ovagames.com": [
-        {"icon": "PC", "system": ["pc", "gog"], "games": "https://www.ovagames.com/category/gog"},
-        {"icon": "PC", "system": ["pc"], "games": "https://www.ovagames.com/category/scene"},
-        {"icon": "PC", "system": ["pc", "repack"], "games": "https://www.ovagames.com/category/repack"},
-        {"icon": "VR", "system": ["pc", "vr"], "games": "https://www.ovagames.com/category/vr"}
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "gog"
+            ],
+            "games": "https://www.ovagames.com/category/gog"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc"
+            ],
+            "games": "https://www.ovagames.com/category/scene"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc",
+                "repack"
+            ],
+            "games": "https://www.ovagames.com/category/repack"
+        },
+        {
+            "icon": "VR",
+            "system": [
+                "pc",
+                "vr"
+            ],
+            "games": "https://www.ovagames.com/category/vr"
+        }
     ],
     "madloader.com": [
-        {"icon": "3DS", "system": ["3ds", "n3ds", "3DS"], "games": "https://madloader.com/3ds/3ds-games/"},
-        {"icon": "3DS", "system": ["3ds", "n3ds", "3DS"], "games": "https://madloader.com/3ds/3ds-cia-fils/"},
-        {"icon": "Switch", "system": ["switch", "nintendo switch"], "games": "https://madloader.com/nintendo-switch/switch-xci/"},
-        {"icon": "Switch", "system": ["switch", "nintendo switch"], "games": "https://madloader.com/nintendo-switch/switch-eshop-nsp/"},
-        {"icon": "Switch", "system": ["switch", "nintendo switch"], "games": "https://madloader.com/nintendo-switch/switch-update-dlc/"},
-        {"icon": "Playstation Vita", "system": ["vita", "psvita", "playstation vita"], "games": "https://madloader.com/psvita/psvita-games-vpk/"},
-        {"icon": "Playstation Vita", "system": ["vita", "psvita", "playstation vita"], "games": "https://madloader.com/psvita/psvita-psn-games/"},
-        {"icon": "DS", "system": ["ds", "nds", "DS"], "games": "https://madloader.com/nintendo-ds/ds-games/"},
-        {"icon": "Wii", "system": ["wii", "nintendo wii"], "games": "https://madloader.com/wii/"},
-        {"icon": "PSP", "system": ["psp", "playstation portable"], "games": "https://madloader.com/psp/pspgame/"},
-        {"icon": "PSP", "system": ["psp", "playstation portable"], "games": "https://madloader.com/psp/psp-minis-games/"},
-        {"icon": "PC", "system": ["pc"], "games": "https://madloader.com/pc-games/"}
+        {
+            "icon": "3DS",
+            "system": [
+                "3ds",
+                "n3ds",
+                "3DS"
+            ],
+            "games": "https://madloader.com/3ds/3ds-games/"
+        },
+        {
+            "icon": "3DS",
+            "system": [
+                "3ds",
+                "n3ds",
+                "3DS"
+            ],
+            "games": "https://madloader.com/3ds/3ds-cia-fils/"
+        },
+        {
+            "icon": "Switch",
+            "system": [
+                "switch",
+                "nintendo switch"
+            ],
+            "games": "https://madloader.com/nintendo-switch/switch-xci/"
+        },
+        {
+            "icon": "Switch",
+            "system": [
+                "switch",
+                "nintendo switch"
+            ],
+            "games": "https://madloader.com/nintendo-switch/switch-eshop-nsp/"
+        },
+        {
+            "icon": "Switch",
+            "system": [
+                "switch",
+                "nintendo switch"
+            ],
+            "games": "https://madloader.com/nintendo-switch/switch-update-dlc/"
+        },
+        {
+            "icon": "Playstation Vita",
+            "system": [
+                "vita",
+                "psvita",
+                "playstation vita"
+            ],
+            "games": "https://madloader.com/psvita/psvita-games-vpk/"
+        },
+        {
+            "icon": "Playstation Vita",
+            "system": [
+                "vita",
+                "psvita",
+                "playstation vita"
+            ],
+            "games": "https://madloader.com/psvita/psvita-psn-games/"
+        },
+        {
+            "icon": "DS",
+            "system": [
+                "ds",
+                "nds",
+                "DS"
+            ],
+            "games": "https://madloader.com/nintendo-ds/ds-games/"
+        },
+        {
+            "icon": "Wii",
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://madloader.com/wii/"
+        },
+        {
+            "icon": "PSP",
+            "system": [
+                "psp",
+                "playstation portable"
+            ],
+            "games": "https://madloader.com/psp/pspgame/"
+        },
+        {
+            "icon": "PSP",
+            "system": [
+                "psp",
+                "playstation portable"
+            ],
+            "games": "https://madloader.com/psp/psp-minis-games/"
+        },
+        {
+            "icon": "PC",
+            "system": [
+                "pc"
+            ],
+            "games": "https://madloader.com/pc-games/"
+        }
     ],
     "playablearchive.org": [
-        {"icon": "DS", "system": ["ds", "nds", "DS"], "type": "melonds", "games": "https://archive.org/download/nds_apfix/apfix/", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"},
-        {"icon": "DS", "system": ["ds", "nds", "DS"], "type": "melonds", "games": "https://archive.org/download/noIntroNintendoDsDecrypted2020Jan20", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"},
-        {"icon": "DS", "system": ["ds", "nds", "DS"], "type": "melonds", "games": "https://archive.org/download/no-ndsdec2021", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"},
-        {"icon": "Atari 2600", "system": ["atari 2600", "2600", "atari"], "type": "atari2600", "games": "https://archive.org/download/nointro.atari-2600"},
-        {"icon": "Atari 5200", "system": ["atari 5200", "5200", "atari"], "type": "atari5200", "games":"https://archive.org/download/nointro.atari-5200"},
-        {"icon": "Atari 7800", "system": ["atari 7800", "7800", "atari"], "type": "atari7800", "games": "https://archive.org/download/nointro.atari-7800"},
-        {"icon": "Turbografx-16", "system": ["turbografx", "pce", "turbografx-16"], "type": "pce", "games": "https://archive.org/download/nointro.tg-16", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/NEC%20-%20PC%20Engine%20-%20SuperGrafx%20-%20CD%20%28Beetle%20PCE%20-%20PCE%20Fast%20-%20SGX%29.zip/syscard3.pce"},
-        {"icon": "Turbografx-16", "system": ["turbografx", "pce", "turbografx-16"], "type": "pce", "games": "https://archive.org/download/redump.pce.revival", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/NEC%20-%20PC%20Engine%20-%20SuperGrafx%20-%20CD%20%28Beetle%20PCE%20-%20PCE%20Fast%20-%20SGX%29.zip/syscard3.pce"},
-        {"icon": "Famicom", "system": ["famicom", "famicom disk system"], "type": "fceumm", "games": "http://archive.org/download/nointro.fds", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20NES%20-%20Famicom%20%28FCEUmm%20-%20Mesen%29.zip/disksys.rom"},
-        {"icon": "Gameboy Advance", "system": ["gameboy advance", "gameboy", "gba"], "type": "mgba", "games": "https://archive.org/download/nointro.gba-multiboot", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gba_bios.bin"},
-        {"icon": "Gameboy Advance", "system": ["gameboy advance", "gameboy", "gba"], "type": "mgba", "games": "https://archive.org/download/nointro.gba", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gba_bios.bin"},
-        {"icon": "Gameboy", "system": ["gameboy", "gb"], "type": "mgba", "games": "https://archive.org/download/nointro.gb", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gb_bios.bin"},
-        {"icon": "Gameboy Color", "system": ["gameboy color", "gbc", "gameboy"], "type": "mgba", "games": "https://archive.org/download/nointro.gbc", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gbc_bios.bin"},
-        {"icon": "Nintendo 64", "system": ["nintendo 64", "n64"], "type": "n64", "games": "https://archive.org/download/nointro.n64"},
-        {"icon": "Atari Jaguar", "system": ["atari jaguar", "jaguar", "atari"], "type": "jaguar", "games": "https://archive.org/download/redump.jaguar.revival"},
-        {"icon": "Virtual Boy", "system": ["nintendo virtual boy", "virtual boy", "vb"], "type": "vb", "games": "https://archive.org/download/nointro.vb"},
-        {"icon": "NES", "system": ["nes", "nintendo entertainment system"], "type": "fceumm", "games": "https://archive.org/download/nointro.nes", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20NES%20-%20Famicom%20%28FCEUmm%20-%20Mesen%29.zip/disksys.rom"},
-        {"icon": "SNES", "system": ["snes", "super nintendo entertainment system"], "type": "snes", "games": "https://archive.org/download/nointro.snes"},
-        {"icon": "Arcade", "system": ["arcade", "mame", "rom"], "type": "arcade", "games": "https://archive.org/download/mame-merged/mame-merged/"},
-        {"icon": "Arcade", "system": ["arcade", "mame", "final burn neo", "rom"], "type": "arcade", "games": "https://archive.org/download/fbnarcade-fullnonmerged/arcade/"},
-        {"icon": "3DO", "system": ["3do", "panasonic 3do"], "type": "3do", "games": "https://archive.org/download/redump.3DO.revival"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "type": "psx", "games": "https://archive.org/download/chd_psx/CHD-PSX-USA/", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5501.bin"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "type": "psx", "games": "https://archive.org/download/chd_psx_eur/CHD-PSX-EUR/", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5502.bin"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "type": "psx", "games": "https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5500.bin"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "type": "psx", "games": "https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/", "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5500.bin"}
+        {
+            "icon": "DS",
+            "system": [
+                "ds",
+                "nds",
+                "DS"
+            ],
+            "type": "melonds",
+            "games": "https://archive.org/download/nds_apfix/apfix/",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"
+        },
+        {
+            "icon": "DS",
+            "system": [
+                "ds",
+                "nds",
+                "DS"
+            ],
+            "type": "melonds",
+            "games": "https://archive.org/download/noIntroNintendoDsDecrypted2020Jan20",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"
+        },
+        {
+            "icon": "DS",
+            "system": [
+                "ds",
+                "nds",
+                "DS"
+            ],
+            "type": "melonds",
+            "games": "https://archive.org/download/no-ndsdec2021",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20DS%20%28DeSmuME%20-%20melonDS%29.zip/firmware.bin"
+        },
+        {
+            "icon": "Atari 2600",
+            "system": [
+                "atari 2600",
+                "2600",
+                "atari"
+            ],
+            "type": "atari2600",
+            "games": "https://archive.org/download/nointro.atari-2600"
+        },
+        {
+            "icon": "Atari 5200",
+            "system": [
+                "atari 5200",
+                "5200",
+                "atari"
+            ],
+            "type": "atari5200",
+            "games": "https://archive.org/download/nointro.atari-5200"
+        },
+        {
+            "icon": "Atari 7800",
+            "system": [
+                "atari 7800",
+                "7800",
+                "atari"
+            ],
+            "type": "atari7800",
+            "games": "https://archive.org/download/nointro.atari-7800"
+        },
+        {
+            "icon": "Turbografx-16",
+            "system": [
+                "turbografx",
+                "pce",
+                "turbografx-16"
+            ],
+            "type": "pce",
+            "games": "https://archive.org/download/nointro.tg-16",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/NEC%20-%20PC%20Engine%20-%20SuperGrafx%20-%20CD%20%28Beetle%20PCE%20-%20PCE%20Fast%20-%20SGX%29.zip/syscard3.pce"
+        },
+        {
+            "icon": "Turbografx-16",
+            "system": [
+                "turbografx",
+                "pce",
+                "turbografx-16"
+            ],
+            "type": "pce",
+            "games": "https://archive.org/download/redump.pce.revival",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/NEC%20-%20PC%20Engine%20-%20SuperGrafx%20-%20CD%20%28Beetle%20PCE%20-%20PCE%20Fast%20-%20SGX%29.zip/syscard3.pce"
+        },
+        {
+            "icon": "Famicom",
+            "system": [
+                "famicom",
+                "famicom disk system"
+            ],
+            "type": "fceumm",
+            "games": "http://archive.org/download/nointro.fds",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20NES%20-%20Famicom%20%28FCEUmm%20-%20Mesen%29.zip/disksys.rom"
+        },
+        {
+            "icon": "Gameboy Advance",
+            "system": [
+                "gameboy advance",
+                "gameboy",
+                "gba"
+            ],
+            "type": "mgba",
+            "games": "https://archive.org/download/nointro.gba-multiboot",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gba_bios.bin"
+        },
+        {
+            "icon": "Gameboy Advance",
+            "system": [
+                "gameboy advance",
+                "gameboy",
+                "gba"
+            ],
+            "type": "mgba",
+            "games": "https://archive.org/download/nointro.gba",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gba_bios.bin"
+        },
+        {
+            "icon": "Gameboy",
+            "system": [
+                "gameboy",
+                "gb"
+            ],
+            "type": "mgba",
+            "games": "https://archive.org/download/nointro.gb",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gb_bios.bin"
+        },
+        {
+            "icon": "Gameboy Color",
+            "system": [
+                "gameboy color",
+                "gbc",
+                "gameboy"
+            ],
+            "type": "mgba",
+            "games": "https://archive.org/download/nointro.gbc",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20Game%20Boy%20Advance%20%28mGBA%20-%20VBA-M%29.zip/gbc_bios.bin"
+        },
+        {
+            "icon": "Nintendo 64",
+            "system": [
+                "nintendo 64",
+                "n64"
+            ],
+            "type": "n64",
+            "games": "https://archive.org/download/nointro.n64"
+        },
+        {
+            "icon": "Atari Jaguar",
+            "system": [
+                "atari jaguar",
+                "jaguar",
+                "atari"
+            ],
+            "type": "jaguar",
+            "games": "https://archive.org/download/redump.jaguar.revival"
+        },
+        {
+            "icon": "Virtual Boy",
+            "system": [
+                "nintendo virtual boy",
+                "virtual boy",
+                "vb"
+            ],
+            "type": "vb",
+            "games": "https://archive.org/download/nointro.vb"
+        },
+        {
+            "icon": "NES",
+            "system": [
+                "nes",
+                "nintendo entertainment system"
+            ],
+            "type": "fceumm",
+            "games": "https://archive.org/download/nointro.nes",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Nintendo%20-%20NES%20-%20Famicom%20%28FCEUmm%20-%20Mesen%29.zip/disksys.rom"
+        },
+        {
+            "icon": "SNES",
+            "system": [
+                "snes",
+                "super nintendo entertainment system"
+            ],
+            "type": "snes",
+            "games": "https://archive.org/download/nointro.snes"
+        },
+        {
+            "icon": "Arcade",
+            "system": [
+                "arcade",
+                "mame",
+                "rom"
+            ],
+            "type": "arcade",
+            "games": "https://archive.org/download/mame-merged/mame-merged/"
+        },
+        {
+            "icon": "Arcade",
+            "system": [
+                "arcade",
+                "mame",
+                "final burn neo",
+                "rom"
+            ],
+            "type": "arcade",
+            "games": "https://archive.org/download/fbnarcade-fullnonmerged/arcade/"
+        },
+        {
+            "icon": "3DO",
+            "system": [
+                "3do",
+                "panasonic 3do"
+            ],
+            "type": "3do",
+            "games": "https://archive.org/download/redump.3DO.revival"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "type": "psx",
+            "games": "https://archive.org/download/chd_psx/CHD-PSX-USA/",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5501.bin"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "type": "psx",
+            "games": "https://archive.org/download/chd_psx_eur/CHD-PSX-EUR/",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5502.bin"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "type": "psx",
+            "games": "https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5500.bin"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "type": "psx",
+            "games": "https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/",
+            "bios": "https://archive.org/download/RetroarchSystemFiles/Retroarch-System/Sony%20-%20PlayStation%20%28Beetle%20PSX%20%20-%20Beetle%20PSX%20HW%20-%20PCSX%20ReARMed%20-%20DuckStation%29.zip/scph5500.bin"
+        }
     ],
     "archive.org": [
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/xboxrepo0-Calt", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/xboxrepoD-F", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/xboxrepoG-L", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/x-rM22020", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/x-rM12020", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/x-rN12020", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/x-rN22020", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/x-rO2020", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/x-rP2020", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/xboxrepoR-S", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox original"], "games": "https://archive.org/download/xboxrepoT-Z", "icon": "Xbox Original"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_numberssymbols", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_a_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_a_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_b_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_b_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_c_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_c_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_d_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_d_part3", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_e", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_f_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_f_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_g", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_h", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_i", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_j", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_k", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_l", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_m_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_m_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_n_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_n_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_o", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_p", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_q", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_r", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_s_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_s_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_t_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_t_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_u", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_v", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_w", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_x_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_x_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_y", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_z", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_title-updates", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_digital_part1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_digital_part2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/microsoft_xbox360_digital_part3", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_1_OTHER", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_3", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_4", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_5", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_6", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_DLC_1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_DLC_2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_DLC_3", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_DLC_4", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_DLC_5", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_DLC_6", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_XBLIG_1", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_XBLIG_2", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_XBLIG_3", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_XBLIG_4", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_XBLA", "icon": "Xbox 360"},
-        {"system": ["xbox", "xbox 360", "360"], "games": "https://archive.org/download/XBOX_360_XBLA_DLC", "icon": "Xbox 360"},
-        {"system": ["ds", "nintendo ds", "nds"], "games": "https://archive.org/details/no-intro-nintendo-nintendo-ds-download-play_202207", "icon": "DS"},
-        {"system": ["ds", "nintendo ds", "nds"], "games": "https://archive.org/download/No-Intro_Nintendo_DSi_2018-06-30", "icon": "DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/3ds-main-encrypted", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/3ds-main-encrypted", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/3ds-main-encrypted-p2", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/no-intro-nintendo-nintendo-3ds-encrypted", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/no-intro-nintendo-nintendo-3ds-encrypted-part-2", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/nintendo-3ds-eshop-complete-collection", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/nintendo-3ds-complete-collection", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/nintendo-3ds-complete-collection-pt2", "icon": "3DS"},
-        {"system": ["3ds", "nintendo 3ds", "n3ds"], "games": "https://archive.org/download/3ds-dlc-and-updates-encrypted", "icon": "3DS"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/rvz-gc-usa-redump/RVZ-GC-USA-REDUMP/", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/rvz-gc-europe-redump/RVZ-GC-EUROPE-REDUMP/", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/rvz-gc-asia-redump/RVZ-GC-ASIA-REDUMP/", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/RedumpNintendoGameCubeAmerica", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/RedumpNintendoGameCubeAmericaPart2", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/RedumpNintendoGameCubeAmericaPart3", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/NCubeJ", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/EuropeanGamecubeCollectionByGhostware", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/AustraliaGamecubeCollectionByGhostware", "icon": "GameCube"},
-        {"system": ["gamecube", "nintendo gamecube", "gc"], "games": "https://archive.org/download/AsiaGamecubeCollectionByGhostware", "icon": "GameCube"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/wii_rvz_usa/wii_rvz_usa/", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/wii_rvz_usa_p2/wii_rvz_usa/", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/wii_rvz_usa_p3/wii_rvz_usa/", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/wii_rvz_usa_p4/wii_rvz_usa/", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart1", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart2", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart3", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart4", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart5", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart6", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart7", "icon": "Wii"},
-        {"system": ["wii", "nintendo wii"], "games": "https://archive.org/download/WiiRedumpNKitPart8", "icon": "Wii"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-download-nus-usa", "icon": "Wii U"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-turbografx16-nus", "icon": "Wii U"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-wii-nus", "icon": "Wii U"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-nintendo-64-nus", "icon": "Wii U"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-super-nintendo-snes-nus", "icon": "Wii U"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-nintendo-ds-nds-nus", "icon": "Wii U"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-gameboy-advance-nus", "icon": "Wii U"},
-        {"system": ["wii u", "nintendo wii u"], "games": "https://archive.org/download/wii-u-retail-game-disc-nus-usa", "icon": "Wii U"},
-        {"icon": "Nintendo 64DD", "system": ["n64dd", "nintendo 64dd"], "games": "https://archive.org/download/nointro.n64dd"},
-        {"icon": "Pokemini", "system": ["pokemini", "nintendo pokemini"], "games": "http://archive.org/download/nointro.poke-mini"},
-        {"icon": "Nintendo eReader", "system": ["ereader", "nintendo ereader"], "games": "http://archive.org/download/nointro.e-reader"},
-        {"icon": "Sega Genesis 32X", "system": ["Genesis CD 32X", "32x"], "games": "https://archive.org/download/nointro.32x"},
-        {"icon": "Sega Game Gear", "system": ["Game Gear", "Sega Game Gear"], "games": "https://archive.org/download/nointro.gg"},
-        {"icon": "Sega Master System", "system": ["Master System", "Sega Master System", "Master System Mark III", "Mark 3"], "games": "https://archive.org/download/nointro.ms-mkiii"},
-        {"icon": "Sega Mega Drive", "system": ["Mega Drive", "Sega Mega Drive"], "games": "https://archive.org/download/nointro.md"},
-        {"icon": "Bandai Pippin", "system": ["Bandai Pippin", "Apple Pippin"], "games": "https://archive.org/download/redump-bandai-pippin"},
-        {"icon": "Fujitsu FM Towns", "system": ["FM Towns", "Fujitsu FM Towns"], "games": "https://archive.org/download/redump.fm.revival"},
-        {"icon": "PC 9800", "system": ["pc98", "PC 9800"], "games": "https://archive.org/download/redump.pc98.revival"},
-        {"icon": "Philips CD-I", "system": ["cdi", "CD-I", "philips cdi"], "games": "https://archive.org/download/redump.cdi.revival"},
-        {"icon": "Sega Photo CD", "system": ["photo cd", "sega photo"], "games": "https://archive.org/download/redump.photo.revival"},
-        {"icon": "Neo Geo CD", "system": ["neo geo", "neo geo cd", "snk neo geo cd"], "games": "https://archive.org/download/redump.ngcd.revival"},
-        {"icon": "Sega Chihiro", "system": ["chihiro", "sega chihiro"], "games": "https://archive.org/download/redump.chihiro.revival"},
-        {"icon": "Sega Naomi 1", "system": ["naomi 1", "sega naomi 1"], "games": "https://archive.org/download/redump.naomi.revival"},
-        {"icon": "Sega Naomi 2", "system": ["naomi 2", "sega naomi 2"], "games": "https://archive.org/download/redump.naomi2.revival"},
-        {"system": ["dreamcast", "sega dreamcast"], "games": "https://archive.org/download/redump.dc.revival", "icon": "Sega Dreamcast"},
-        {"system": ["dreamcast", "sega dreamcast"], "games": "https://archive.org/download/chd_dc/CHD-DC/", "icon": "Sega Dreamcast"},
-        {"system": ["dreamcast", "sega dreamcast"], "games": "https://archive.org/download/DreamcastCollectionByGhostwareMulti-region", "icon": "Sega Dreamcast"},
-        {"system": ["dreamcast", "sega dreamcast"], "games": "https://archive.org/download/almstcmpltdrmcst", "icon": "Sega Dreamcast"},
-        {"system": ["dreamcast", "sega dreamcast"], "games": "https://archive.org/download/tosecdcus20190822", "icon": "Sega Dreamcast"},
-        {"system": ["dreamcast", "sega dreamcast"], "games": "https://archive.org/download/18wheeleramericanprotruckerv1.7002001segapalm4", "icon": "Sega Dreamcast"},
-        {"system": ["dreamcast", "sega dreamcast"], "games": "https://archive.org/download/interludev1.0032003necinterchanneljp", "icon": "Sega Dreamcast"},
-        {"system": ["saturn", "sega saturn"], "games": "https://archive.org/download/redump.ss.revival", "icon": "Sega Saturn"},
-        {"system": ["saturn", "sega saturn"], "games": "https://archive.org/download/chd_saturn/CHD-Saturn/USA/", "icon": "Sega Saturn"},
-        {"system": ["saturn", "sega saturn"], "games": "https://archive.org/download/chd_saturn/CHD-Saturn/Europe/", "icon": "Sega Saturn"},
-        {"system": ["saturn", "sega saturn"], "games": "https://archive.org/download/chd_saturn/CHD-Saturn/Japan/", "icon": "Sega Saturn"},
-        {"system": ["saturn", "sega saturn"], "games": "https://archive.org/download/chd_saturn/CHD-Saturn/Other-Regions/", "icon": "Sega Saturn"},
-        {"system": ["sega cd", "cd"], "games": "https://archive.org/download/redump.mcd.revival", "icon": "Sega CD"},
-        {"system": ["sega cd", "cd"], "games": "https://archive.org/download/chd_segacd/CHD-SegaCD-NTSC/", "icon": "Sega CD"},
-        {"system": ["sega cd", "cd"], "games": "https://archive.org/download/chd_segacd/CHD-MegaCD-PAL/", "icon": "Sega CD"},
-        {"system": ["sega cd", "cd"], "games": "https://archive.org/download/chd_segacd/CHD-MegaCD-NTSCJ/", "icon": "Sega CD"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "games": "https://archive.org/download/redump.psx"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "games": "https://archive.org/download/redump.psx.p2"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "games": "https://archive.org/download/redump.psx.p3"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "games": "https://archive.org/download/redump.psx.p4"},
-        {"icon": "Playstation 1", "system": ["playstation", "playstation 1", "ps1", "psx", "ps"], "games": "https://archive.org/download/chd_psx_misc/CHD-PSX-Misc/"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2", "ps2", "ps"], "games": "https://archive.org/download/sony_playstation2_numberssymbols"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2", "ps2", "ps"], "games": "https://archive.org/download/sony_playstation2_a"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2", "ps2", "ps"], "games": "https://archive.org/download/sony_playstation2_b"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_c"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_d_part1"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_d_part2"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_e"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_f"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_g"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_h"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_i"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_j"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_k"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_l"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_m_part1"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_m_part2"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_n"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_o_part1"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_o_part2"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_p"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_q"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_r"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_s_part1"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_s_part2"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_s_part3"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_t"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_u"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_v"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_w"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_x"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_y"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/sony_playstation2_z"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part2"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part3"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part4"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/redumpSonyPlaystation2UsaOther2018Aug01"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2usaredump1"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2usaredump1_20200816_1458"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/httpsarchive.orgdetailsps2usaredump3"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART1"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART2"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART3"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART4"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART5"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2_collection_part6_202008"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2_collection_part7"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART8"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART9"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART10"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART11"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART12"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART13"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART14"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART15"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART16"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART17"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART18"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART19"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART20"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART21"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART22"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART23"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART24"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART25"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART26"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/PS2_COLLECTION_PART27"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2japanredump1"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2japanredump2"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2japanredump3"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/httpsarchive.orgdetailsps2japanredump4"},
-        {"icon": "Playstation 2", "system": ["playstation", "playstation 2"], "games": "https://archive.org/download/ps2japanredump5"},
-        {"icon": "Playstation Portable", "system": ["playstation portable", "psp"], "games": "https://archive.org/download/redump.psp"},
-        {"icon": "Playstation Portable", "system": ["playstation portable", "psp"], "games": "https://archive.org/download/redump.psp.p2"},
-        {"icon": "Playstation Portable", "system": ["playstation portable", "psp"], "games": "https://archive.org/download/PSP_DLC"},
-        {"icon": "Playstation Portable", "system": ["playstation portable", "psp"], "games": "https://archive.org/download/PSP-DLC/PSP%20DLC/"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_1"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_2"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_3"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_4"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA__5"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_6"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_7"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_8"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_9"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_USA_10"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_1"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_2"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_3"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_4"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_5"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_6"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_7"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_EUR_8"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_JAP_1"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_JAP_2"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_JAP_3"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_NOINTRO_JAP_4"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_PSN_1"},
-        {"icon": "Playstation 3", "system": ["playstation 3", "ps3"], "games": "https://archive.org/download/PS3_PSN_2"},
-        {"icon": "Playstation Vita", "system": ["vita", "psvita", "playstation vita"], "games": "https://archive.org/download/PSVITA_VPK"},
-        {"icon": "Playstation Vita", "system": ["vita", "psvita", "playstation vita"], "games": "https://archive.org/download/PSVITA_MAIDUMP"}
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/xboxrepo0-Calt",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/xboxrepoD-F",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/xboxrepoG-L",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/x-rM22020",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/x-rM12020",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/x-rN12020",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/x-rN22020",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/x-rO2020",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/x-rP2020",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/xboxrepoR-S",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox original"
+            ],
+            "games": "https://archive.org/download/xboxrepoT-Z",
+            "icon": "Xbox Original"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_numberssymbols",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_a_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_a_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_b_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_b_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_c_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_c_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_d_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_d_part3",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_e",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_f_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_f_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_g",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_h",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_i",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_j",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_k",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_l",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_m_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_m_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_n_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_n_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_o",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_p",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_q",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_r",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_s_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_s_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_t_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_t_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_u",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_v",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_w",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_x_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_x_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_y",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_z",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_title-updates",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_digital_part1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_digital_part2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/microsoft_xbox360_digital_part3",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_1_OTHER",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_3",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_4",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_5",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_6",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_DLC_1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_DLC_2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_DLC_3",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_DLC_4",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_DLC_5",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_DLC_6",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_XBLIG_1",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_XBLIG_2",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_XBLIG_3",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_XBLIG_4",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_XBLA",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "xbox",
+                "xbox 360",
+                "360"
+            ],
+            "games": "https://archive.org/download/XBOX_360_XBLA_DLC",
+            "icon": "Xbox 360"
+        },
+        {
+            "system": [
+                "ds",
+                "nintendo ds",
+                "nds"
+            ],
+            "games": "https://archive.org/details/no-intro-nintendo-nintendo-ds-download-play_202207",
+            "icon": "DS"
+        },
+        {
+            "system": [
+                "ds",
+                "nintendo ds",
+                "nds"
+            ],
+            "games": "https://archive.org/download/No-Intro_Nintendo_DSi_2018-06-30",
+            "icon": "DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/3ds-main-encrypted",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/3ds-main-encrypted",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/3ds-main-encrypted-p2",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/no-intro-nintendo-nintendo-3ds-encrypted",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/no-intro-nintendo-nintendo-3ds-encrypted-part-2",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/nintendo-3ds-eshop-complete-collection",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/nintendo-3ds-complete-collection",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/nintendo-3ds-complete-collection-pt2",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "3ds",
+                "nintendo 3ds",
+                "n3ds"
+            ],
+            "games": "https://archive.org/download/3ds-dlc-and-updates-encrypted",
+            "icon": "3DS"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/rvz-gc-usa-redump/RVZ-GC-USA-REDUMP/",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/rvz-gc-europe-redump/RVZ-GC-EUROPE-REDUMP/",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/rvz-gc-asia-redump/RVZ-GC-ASIA-REDUMP/",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/RedumpNintendoGameCubeAmerica",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/RedumpNintendoGameCubeAmericaPart2",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/RedumpNintendoGameCubeAmericaPart3",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/NCubeJ",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/EuropeanGamecubeCollectionByGhostware",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/AustraliaGamecubeCollectionByGhostware",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "gamecube",
+                "nintendo gamecube",
+                "gc"
+            ],
+            "games": "https://archive.org/download/AsiaGamecubeCollectionByGhostware",
+            "icon": "GameCube"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/wii_rvz_usa/wii_rvz_usa/",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/wii_rvz_usa_p2/wii_rvz_usa/",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/wii_rvz_usa_p3/wii_rvz_usa/",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/wii_rvz_usa_p4/wii_rvz_usa/",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart1",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart2",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart3",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart4",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart5",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart6",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart7",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii",
+                "nintendo wii"
+            ],
+            "games": "https://archive.org/download/WiiRedumpNKitPart8",
+            "icon": "Wii"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-download-nus-usa",
+            "icon": "Wii U"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-turbografx16-nus",
+            "icon": "Wii U"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-wii-nus",
+            "icon": "Wii U"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-nintendo-64-nus",
+            "icon": "Wii U"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-super-nintendo-snes-nus",
+            "icon": "Wii U"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-nintendo-ds-nds-nus",
+            "icon": "Wii U"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-gameboy-advance-nus",
+            "icon": "Wii U"
+        },
+        {
+            "system": [
+                "wii u",
+                "nintendo wii u"
+            ],
+            "games": "https://archive.org/download/wii-u-retail-game-disc-nus-usa",
+            "icon": "Wii U"
+        },
+        {
+            "icon": "Nintendo 64DD",
+            "system": [
+                "n64dd",
+                "nintendo 64dd"
+            ],
+            "games": "https://archive.org/download/nointro.n64dd"
+        },
+        {
+            "icon": "Pokemini",
+            "system": [
+                "pokemini",
+                "nintendo pokemini"
+            ],
+            "games": "http://archive.org/download/nointro.poke-mini"
+        },
+        {
+            "icon": "Nintendo eReader",
+            "system": [
+                "ereader",
+                "nintendo ereader"
+            ],
+            "games": "http://archive.org/download/nointro.e-reader"
+        },
+        {
+            "icon": "Sega Genesis 32X",
+            "system": [
+                "Genesis CD 32X",
+                "32x"
+            ],
+            "games": "https://archive.org/download/nointro.32x"
+        },
+        {
+            "icon": "Sega Game Gear",
+            "system": [
+                "Game Gear",
+                "Sega Game Gear"
+            ],
+            "games": "https://archive.org/download/nointro.gg"
+        },
+        {
+            "icon": "Sega Master System",
+            "system": [
+                "Master System",
+                "Sega Master System",
+                "Master System Mark III",
+                "Mark 3"
+            ],
+            "games": "https://archive.org/download/nointro.ms-mkiii"
+        },
+        {
+            "icon": "Sega Mega Drive",
+            "system": [
+                "Mega Drive",
+                "Sega Mega Drive"
+            ],
+            "games": "https://archive.org/download/nointro.md"
+        },
+        {
+            "icon": "Bandai Pippin",
+            "system": [
+                "Bandai Pippin",
+                "Apple Pippin"
+            ],
+            "games": "https://archive.org/download/redump-bandai-pippin"
+        },
+        {
+            "icon": "Fujitsu FM Towns",
+            "system": [
+                "FM Towns",
+                "Fujitsu FM Towns"
+            ],
+            "games": "https://archive.org/download/redump.fm.revival"
+        },
+        {
+            "icon": "PC 9800",
+            "system": [
+                "pc98",
+                "PC 9800"
+            ],
+            "games": "https://archive.org/download/redump.pc98.revival"
+        },
+        {
+            "icon": "Philips CD-I",
+            "system": [
+                "cdi",
+                "CD-I",
+                "philips cdi"
+            ],
+            "games": "https://archive.org/download/redump.cdi.revival"
+        },
+        {
+            "icon": "Sega Photo CD",
+            "system": [
+                "photo cd",
+                "sega photo"
+            ],
+            "games": "https://archive.org/download/redump.photo.revival"
+        },
+        {
+            "icon": "Neo Geo CD",
+            "system": [
+                "neo geo",
+                "neo geo cd",
+                "snk neo geo cd"
+            ],
+            "games": "https://archive.org/download/redump.ngcd.revival"
+        },
+        {
+            "icon": "Sega Chihiro",
+            "system": [
+                "chihiro",
+                "sega chihiro"
+            ],
+            "games": "https://archive.org/download/redump.chihiro.revival"
+        },
+        {
+            "icon": "Sega Naomi 1",
+            "system": [
+                "naomi 1",
+                "sega naomi 1"
+            ],
+            "games": "https://archive.org/download/redump.naomi.revival"
+        },
+        {
+            "icon": "Sega Naomi 2",
+            "system": [
+                "naomi 2",
+                "sega naomi 2"
+            ],
+            "games": "https://archive.org/download/redump.naomi2.revival"
+        },
+        {
+            "system": [
+                "dreamcast",
+                "sega dreamcast"
+            ],
+            "games": "https://archive.org/download/redump.dc.revival",
+            "icon": "Sega Dreamcast"
+        },
+        {
+            "system": [
+                "dreamcast",
+                "sega dreamcast"
+            ],
+            "games": "https://archive.org/download/chd_dc/CHD-DC/",
+            "icon": "Sega Dreamcast"
+        },
+        {
+            "system": [
+                "dreamcast",
+                "sega dreamcast"
+            ],
+            "games": "https://archive.org/download/DreamcastCollectionByGhostwareMulti-region",
+            "icon": "Sega Dreamcast"
+        },
+        {
+            "system": [
+                "dreamcast",
+                "sega dreamcast"
+            ],
+            "games": "https://archive.org/download/almstcmpltdrmcst",
+            "icon": "Sega Dreamcast"
+        },
+        {
+            "system": [
+                "dreamcast",
+                "sega dreamcast"
+            ],
+            "games": "https://archive.org/download/tosecdcus20190822",
+            "icon": "Sega Dreamcast"
+        },
+        {
+            "system": [
+                "dreamcast",
+                "sega dreamcast"
+            ],
+            "games": "https://archive.org/download/18wheeleramericanprotruckerv1.7002001segapalm4",
+            "icon": "Sega Dreamcast"
+        },
+        {
+            "system": [
+                "dreamcast",
+                "sega dreamcast"
+            ],
+            "games": "https://archive.org/download/interludev1.0032003necinterchanneljp",
+            "icon": "Sega Dreamcast"
+        },
+        {
+            "system": [
+                "saturn",
+                "sega saturn"
+            ],
+            "games": "https://archive.org/download/redump.ss.revival",
+            "icon": "Sega Saturn"
+        },
+        {
+            "system": [
+                "saturn",
+                "sega saturn"
+            ],
+            "games": "https://archive.org/download/chd_saturn/CHD-Saturn/USA/",
+            "icon": "Sega Saturn"
+        },
+        {
+            "system": [
+                "saturn",
+                "sega saturn"
+            ],
+            "games": "https://archive.org/download/chd_saturn/CHD-Saturn/Europe/",
+            "icon": "Sega Saturn"
+        },
+        {
+            "system": [
+                "saturn",
+                "sega saturn"
+            ],
+            "games": "https://archive.org/download/chd_saturn/CHD-Saturn/Japan/",
+            "icon": "Sega Saturn"
+        },
+        {
+            "system": [
+                "saturn",
+                "sega saturn"
+            ],
+            "games": "https://archive.org/download/chd_saturn/CHD-Saturn/Other-Regions/",
+            "icon": "Sega Saturn"
+        },
+        {
+            "system": [
+                "sega cd",
+                "cd"
+            ],
+            "games": "https://archive.org/download/redump.mcd.revival",
+            "icon": "Sega CD"
+        },
+        {
+            "system": [
+                "sega cd",
+                "cd"
+            ],
+            "games": "https://archive.org/download/chd_segacd/CHD-SegaCD-NTSC/",
+            "icon": "Sega CD"
+        },
+        {
+            "system": [
+                "sega cd",
+                "cd"
+            ],
+            "games": "https://archive.org/download/chd_segacd/CHD-MegaCD-PAL/",
+            "icon": "Sega CD"
+        },
+        {
+            "system": [
+                "sega cd",
+                "cd"
+            ],
+            "games": "https://archive.org/download/chd_segacd/CHD-MegaCD-NTSCJ/",
+            "icon": "Sega CD"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "games": "https://archive.org/download/redump.psx"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "games": "https://archive.org/download/redump.psx.p2"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "games": "https://archive.org/download/redump.psx.p3"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "games": "https://archive.org/download/redump.psx.p4"
+        },
+        {
+            "icon": "Playstation 1",
+            "system": [
+                "playstation",
+                "playstation 1",
+                "ps1",
+                "psx",
+                "ps"
+            ],
+            "games": "https://archive.org/download/chd_psx_misc/CHD-PSX-Misc/"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2",
+                "ps2",
+                "ps"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_numberssymbols"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2",
+                "ps2",
+                "ps"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_a"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2",
+                "ps2",
+                "ps"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_b"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_c"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_d_part1"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_d_part2"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_e"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_f"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_g"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_h"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_i"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_j"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_k"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_l"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_m_part1"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_m_part2"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_n"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_o_part1"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_o_part2"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_p"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_q"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_r"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_s_part1"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_s_part2"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_s_part3"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_t"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_u"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_v"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_w"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_x"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_y"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/sony_playstation2_z"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part2"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part3"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part4"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/redumpSonyPlaystation2UsaOther2018Aug01"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2usaredump1"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2usaredump1_20200816_1458"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/httpsarchive.orgdetailsps2usaredump3"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART1"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART2"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART3"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART4"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART5"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2_collection_part6_202008"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2_collection_part7"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART8"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART9"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART10"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART11"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART12"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART13"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART14"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART15"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART16"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART17"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART18"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART19"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART20"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART21"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART22"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART23"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART24"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART25"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART26"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/PS2_COLLECTION_PART27"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2japanredump1"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2japanredump2"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2japanredump3"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/httpsarchive.orgdetailsps2japanredump4"
+        },
+        {
+            "icon": "Playstation 2",
+            "system": [
+                "playstation",
+                "playstation 2"
+            ],
+            "games": "https://archive.org/download/ps2japanredump5"
+        },
+        {
+            "icon": "Playstation Portable",
+            "system": [
+                "playstation portable",
+                "psp"
+            ],
+            "games": "https://archive.org/download/redump.psp"
+        },
+        {
+            "icon": "Playstation Portable",
+            "system": [
+                "playstation portable",
+                "psp"
+            ],
+            "games": "https://archive.org/download/redump.psp.p2"
+        },
+        {
+            "icon": "Playstation Portable",
+            "system": [
+                "playstation portable",
+                "psp"
+            ],
+            "games": "https://archive.org/download/PSP_DLC"
+        },
+        {
+            "icon": "Playstation Portable",
+            "system": [
+                "playstation portable",
+                "psp"
+            ],
+            "games": "https://archive.org/download/PSP-DLC/PSP%20DLC/"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_1"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_2"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_3"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_4"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA__5"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_6"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_7"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_8"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_9"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_USA_10"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_1"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_2"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_3"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_4"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_5"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_6"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_7"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_EUR_8"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_JAP_1"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_JAP_2"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_JAP_3"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_NOINTRO_JAP_4"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_PSN_1"
+        },
+        {
+            "icon": "Playstation 3",
+            "system": [
+                "playstation 3",
+                "ps3"
+            ],
+            "games": "https://archive.org/download/PS3_PSN_2"
+        },
+        {
+            "icon": "Playstation Vita",
+            "system": [
+                "vita",
+                "psvita",
+                "playstation vita"
+            ],
+            "games": "https://archive.org/download/PSVITA_VPK"
+        },
+        {
+            "icon": "Playstation Vita",
+            "system": [
+                "vita",
+                "psvita",
+                "playstation vita"
+            ],
+            "games": "https://archive.org/download/PSVITA_MAIDUMP"
+        }
     ]
 }
