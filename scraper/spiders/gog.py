@@ -7,7 +7,7 @@ from urllib.parse import unquote
 class GogSpider(scrapy.Spider):
 
     name = "gogspider"
-    allowed_domains = ["gog-games.com"]
+    allowed_domains = ["gog-games.to", "gog-games.com"]
     start_urls = ["https://gog-games.com/search/all/1/title/asc/any"]
 
     def parse(self, response):
