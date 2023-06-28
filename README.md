@@ -16,6 +16,7 @@ Yes! You can find all the documentation including keys at [the Rezi Docs](https:
 # Projects that use Rezi
 <a href="https://github.com/Brisolo32/rezi-pbp-rs"><img src="https://gh-card.dev/repos/Brisolo32/rezi-pbp-rs.svg?fullname=" height="100"></a>
 <a href="https://github.com/ProjectBlackPearl/project_black_pearl"><img src="https://gh-card.dev/repos/ProjectBlackPearl/project_black_pearl.svg?fullname=" height="100"></a>
+<a href="https://github.com/Y0URD34TH/Project-GLD"><img src="https://gh-card.dev/repos/Y0URD34TH/Project-GLD.svg" height="100"></a>
 
 [Put yourself here!](mailto:contact@rezi.one)
 
