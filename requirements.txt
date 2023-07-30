@@ -2,6 +2,3 @@ meilisearch
 python-decouple
 requests
 Scrapy
-selenium
-undetected_chromedriver
-pyvirtualdisplay

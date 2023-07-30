@@ -9,3 +9,4 @@ class GameItem(scrapy.Item):
     system = scrapy.Field()
     icon = scrapy.Field()
     playable = scrapy.Field()
+    igdb_url = scrapy.Field()

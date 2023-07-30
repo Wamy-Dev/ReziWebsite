@@ -36,7 +36,6 @@ from scraper.spiders.steamrip import SteamripSpider
 from scraper.spiders.threedsroms import ThreeDSRomsSpider
 from scraper.spiders.xcinsp import XciNspSpider
 from scraper.spiders.playablearchive import ArchivePlayableSpider
-from scraper.spiders.nsw2u import Nsw2uSpider
 #time
 now=datetime.now()
 current_time = now.strftime("%H:%M:%S")
@@ -62,7 +61,6 @@ crawler.crawl(SteamripSpider) # https://steamrip.com
 crawler.crawl(ThreeDSRomsSpider) # https://3dsroms.com
 crawler.crawl(XciNspSpider) # https://xcinsp.com
 crawler.crawl(ArchivePlayableSpider) # https://archive.org
-crawler.crawl(Nsw2uSpider) # https://nsw2u.com
 crawler.start()
 #meilisearch
 SEARCHCLIENT = config("SEARCHCLIENT")
