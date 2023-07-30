@@ -17,6 +17,7 @@ import requests
 import os
 import time
 import json
+from notify import notify
 #input file
 file = requests.get("https://raw.githubusercontent.com/Wamy-Dev/ReziWebsite/main/input.json")
 with open("input.json", "w") as json_file:
@@ -75,6 +76,7 @@ index.delete_all_documents()
 time.sleep(5)
 index.add_documents_csv(data.encode('utf-8'))
 #finishing
+notify(now, datetime.now(), sum(1 for row in data))
 try:
 	now=datetime.now()
 	current_time = now.strftime("%H:%M:%S")
