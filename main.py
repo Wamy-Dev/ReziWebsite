@@ -31,7 +31,6 @@ from scraper.spiders.madloader import MadloaderSpider
 from scraper.spiders.nopaystation import NoPayStationSpider
 from scraper.spiders.ovagames import OvaGamesSpider
 from scraper.spiders.pokemonrom import PokemonromSpider
-from scraper.spiders.scooterrepacks import ScooterRepacksSpider
 from scraper.spiders.steamrip import SteamripSpider
 from scraper.spiders.threedsroms import ThreeDSRomsSpider
 from scraper.spiders.xcinsp import XciNspSpider
@@ -56,7 +55,6 @@ crawler.crawl(MadloaderSpider) # https://madloader.com
 crawler.crawl(NoPayStationSpider) # https://nopaystation.com
 crawler.crawl(OvaGamesSpider) # https://ovagames.com
 crawler.crawl(PokemonromSpider) # https://pokemonrom.net
-crawler.crawl(ScooterRepacksSpider) # https://scooter-repacks.site
 crawler.crawl(SteamripSpider) # https://steamrip.com
 crawler.crawl(ThreeDSRomsSpider) # https://3dsroms.com
 crawler.crawl(XciNspSpider) # https://xcinsp.com
