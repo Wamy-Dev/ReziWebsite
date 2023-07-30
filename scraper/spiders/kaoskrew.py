@@ -24,6 +24,6 @@ class KaosKrewSpider(scrapy.Spider):
             game_item["link"] = f"https://kaoskrew.org{link}"
             game_item["title"] = unquote(game.css("::text").get()).replace(".", " ")
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
-            game_item["system"] = ["pc", "kaoskrew"]
+            game_item["system"] = ["pc", "kaoskrew", "repacks"]
             game_item["icon"] = "PC"
             yield game_item

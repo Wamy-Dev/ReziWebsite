@@ -36,6 +36,7 @@ from scraper.spiders.threedsroms import ThreeDSRomsSpider
 from scraper.spiders.xcinsp import XciNspSpider
 from scraper.spiders.playablearchive import ArchivePlayableSpider
 from scraper.spiders.kaoskrew import KaosKrewSpider
+from scraper.spiders.cpg import CPGSpider
 #time
 now=datetime.now()
 current_time = now.strftime("%H:%M:%S")
@@ -43,7 +44,7 @@ print(f"Time started: {current_time}.")
 CRONMONITORING = config("CRONMONITORING")
 #scraper
 if os.path.exists("rezi.csv"):
-  os.remove("rezi.csv")
+  	os.remove("rezi.csv")
 else:
   print("First run initiated.")
 crawler = CrawlerProcess(get_project_settings())
@@ -61,6 +62,7 @@ crawler.crawl(ThreeDSRomsSpider) # https://3dsroms.com
 crawler.crawl(XciNspSpider) # https://xcinsp.com
 crawler.crawl(ArchivePlayableSpider) # https://archive.org
 crawler.crawl(KaosKrewSpider) # https://kaoskrew.org
+crawler.crawl(CPGSpider) # https://cpgrepacks.site
 crawler.start()
 #meilisearch
 SEARCHCLIENT = config("SEARCHCLIENT")
