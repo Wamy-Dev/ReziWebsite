@@ -21,9 +21,9 @@ class AbandonwareSpider(scrapy.Spider):
         for game in list:
             link = game.css("::attr(href)").get()
             game_item = GameItem()
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["link"] = f"https://myabandonware.com{link}"
             game_item["title"] = unquote(game.css("::text").get())
-            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["system"] = ["arcade", "mame", "rom"]
             game_item["icon"] = "Arcade"
             game_item["core"] = None

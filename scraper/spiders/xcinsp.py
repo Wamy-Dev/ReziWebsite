@@ -14,11 +14,11 @@ class XciNspSpider(scrapy.Spider):
         list = response.css("ul.dhswp-html-sitemap-post-list li")
         for game in list:
             game_item = GameItem()
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["link"] = game.css("a ::attr(href)").get()
             game_item["title"] = unquote(game.css("a ::text").get())
-            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
-            game_item["icon"] = "Switch"
             game_item["system"] = ["switch", "nintendo switch"]
+            game_item["icon"] = "Switch"
             game_item["core"] = None
             game_item["bios"] = None
             game_item["playable"] = False

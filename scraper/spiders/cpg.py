@@ -20,9 +20,9 @@ class CPGSpider(scrapy.Spider):
         list = response.css("h1.entry-title a")
         for game in list:
             game_item = GameItem()
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["link"] = game.css("::attr(href)").get()
             game_item["title"] = unquote(game.css("::text").get())
-            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["system"] = ["pc", "repacks"]
             game_item["icon"] = "PC"
             game_item["core"] = None

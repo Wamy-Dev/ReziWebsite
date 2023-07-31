@@ -21,19 +21,19 @@ class ThreeDSRomsSpider(scrapy.Spider):
         for game in list:
             game_item = GameItem()
             titleitem = game.css("td a ::text").getall()
-            for each in titleitem:
-                if len(each) > 1 and each != "":
-                    game_item["title"] = unquote(each.strip())
-                else:
-                    continue
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             link = game.css("td a ::attr(href)").get()
             if link:
                 game_item["link"] = game.css("td a ::attr(href)").get()
             else:
                 continue
-            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
-            game_item["icon"] = "3DS"
+            for each in titleitem:
+                if len(each) > 1 and each != "":
+                    game_item["title"] = unquote(each.strip())
+                else:
+                    continue
             game_item["system"] = ["3ds", "nintendo 3ds", "n3ds"]
+            game_item["icon"] = "3DS"
             game_item["core"] = None
             game_item["bios"] = None
             game_item["playable"] = False

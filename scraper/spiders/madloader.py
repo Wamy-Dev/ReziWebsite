@@ -30,11 +30,11 @@ class MadloaderSpider(scrapy.Spider):
         for game in list:
             game_item = GameItem()
             link = game.css("::attr(href)").get()
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["link"] = link
             game_item["title"] = unquote(game.css("::text").get())
-            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
-            game_item["icon"] = icon
             game_item["system"] = system
+            game_item["icon"] = icon
             game_item["core"] = None
             game_item["bios"] = None
             game_item["playable"] = False

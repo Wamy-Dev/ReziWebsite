@@ -30,12 +30,12 @@ class ArchivePlayableSpider(scrapy.Spider):
             title = unquote(game.css("td a ::text").get())
             if title == " Go to parent directory" or title.endswith(".jpg") or title.endswith(".torrent") or title.endswith(".xml") or title.endswith(".sqlite") or title.endswith(".txt"):
                 continue
+            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["link"] = response.request.url + "/" + link
             game_item["title"] = title
-            game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
+            game_item["system"] = system
+            game_item["icon"] = icon
             game_item["core"] = type
             game_item["bios"] = bios
-            game_item["icon"] = icon
-            game_item["system"] = system
             game_item["playable"] = True
             yield game_item
