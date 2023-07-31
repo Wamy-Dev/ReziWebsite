@@ -25,4 +25,7 @@ class FitgirlSpider(scrapy.Spider):
             game_item["id"] = str(uuid4()) + datetime.now().strftime('%Y%m-%d%H-%M%S-')
             game_item["system"] = ["pc", "repacks", "fitgirl"]
             game_item["icon"] = "PC"
+            game_item["core"] = None
+            game_item["bios"] = None
+            game_item["playable"] = False
             yield game_item
