@@ -14,9 +14,9 @@ Rezi.one is a pirated game search engine targeted at newer users to the piracy s
 Yes! You can find all the documentation including keys at [the Rezi Docs](https://docs.rezi.one). There are other things in there than the API such as best searching practices, how to download safely and the sources used for all these games. These docs also allow you to try out requests to see how they work and what a request would look like in different languages. Pretty neat!
 
 # Projects that use Rezi
-<a href="https://github.com/Brisolo32/rezi-pbp-rs"><img src="https://gh-card.dev/repos/Brisolo32/rezi-pbp-rs.svg?fullname=" height="100"></a>
-<a href="https://github.com/ProjectBlackPearl/project_black_pearl"><img src="https://gh-card.dev/repos/ProjectBlackPearl/project_black_pearl.svg?fullname=" height="100"></a>
-<a href="https://github.com/Y0URD34TH/Project-GLD"><img src="https://gh-card.dev/repos/Y0URD34TH/Project-GLD.svg" height="100"></a>
+<a href="https://github.com/blackpearlorigin/blackpearlorigin"><img src="https://gh-card.dev/repos/blackpearlorigin/blackpearlorigin.svg?fullname=" width="350"></a>
+<a href="https://github.com/Y0URD34TH/BPO-GLD-Plugins"><img src="https://gh-card.dev/repos/Y0URD34TH/BPO-GLD-Plugins.svg?fullname=" width="350"></a>
+<a href="https://github.com/Y0URD34TH/Project-GLD"><img src="https://gh-card.dev/repos/Y0URD34TH/Project-GLD.svg" width="350"></a>
 
 [Put yourself here!](mailto:contact@rezi.one)
 
