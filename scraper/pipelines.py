@@ -11,14 +11,17 @@ class BasicPipeline:
             return
         # get IGDB url
         igdb_url = 'https://igdb.com/search_autocomplete_all?q='
-        igdb_data = requests.get(igdb_url + data['title'], headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'
-        }).json()
+        try:
+            igdb_data = requests.get(igdb_url + data['title'], headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'
+            }).json()
+        except Exception:
+            return data
         try:
             if len(igdb_data["game_suggest"]) >= 1:
                 data['igdb_url'] = "https://igdb.com" + igdb_data["game_suggest"][0]['url']
             time.sleep(0.1) # 10 requests per second
-        except:
+        except Exception:
             pass
         return data
         
