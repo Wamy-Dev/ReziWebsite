@@ -16,13 +16,14 @@ class BasicPipeline:
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'
             }).json()
         except Exception:
+            data['igdb_url'] = None
             return data
         try:
             if len(igdb_data["game_suggest"]) >= 1:
                 data['igdb_url'] = "https://igdb.com" + igdb_data["game_suggest"][0]['url']
             time.sleep(0.1) # 10 requests per second
         except Exception:
-            pass
+            data['igdb_url'] = None
         return data
         
 
