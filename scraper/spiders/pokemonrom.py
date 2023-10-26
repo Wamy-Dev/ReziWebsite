@@ -30,4 +30,5 @@ class PokemonromSpider(scrapy.Spider):
             game_item["core"] = None
             game_item["bios"] = None
             game_item["playable"] = False
+            game_item["site"] = "Pokemonrom"
             yield game_item

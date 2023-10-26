@@ -22,4 +22,5 @@ class XciNspSpider(scrapy.Spider):
             game_item["core"] = None
             game_item["bios"] = None
             game_item["playable"] = False
+            game_item["site"] = "XCI NSP"
             yield game_item

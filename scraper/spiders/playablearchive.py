@@ -38,4 +38,5 @@ class ArchivePlayableSpider(scrapy.Spider):
             game_item["core"] = type
             game_item["bios"] = bios
             game_item["playable"] = True
+            game_item["site"] = "Archive.org"
             yield game_item

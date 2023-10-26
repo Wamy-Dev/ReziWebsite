@@ -29,4 +29,5 @@ class GogSpider(scrapy.Spider):
             game_item["core"] = None
             game_item["bios"] = None
             game_item["playable"] = False
+            game_item["site"] = "GOG Games"
             yield game_item

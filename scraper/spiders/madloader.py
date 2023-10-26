@@ -38,4 +38,5 @@ class MadloaderSpider(scrapy.Spider):
             game_item["core"] = None
             game_item["bios"] = None
             game_item["playable"] = False
+            game_item["site"] = "Madloader"
             yield game_item
