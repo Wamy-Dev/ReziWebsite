@@ -5,4 +5,5 @@ ENV CRONMONITORING=healthchecksurl
 ENV SEARCHCLIENT=meiliclient
 ENV SEARCHCLIENTKEY=meiliclientapikey
 ENV DISCORDWEBHOOK=discordwebhookurl
+ENV GAMEBOUNTY_API_KEY=gamebountyapikey
 CMD ["python", "main.py"]
