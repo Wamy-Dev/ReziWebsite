@@ -39,6 +39,7 @@ from scraper.spiders.xcinsp import XciNspSpider
 from scraper.spiders.playablearchive import ArchivePlayableSpider
 from scraper.spiders.kaoskrew import KaosKrewSpider
 from scraper.spiders.cpg import CPGSpider
+from scraper.spiders.gamebounty import GameBountySpider
 #time
 now=datetime.now()
 current_time = now.strftime("%H:%M:%S")
@@ -65,6 +66,7 @@ crawler.crawl(XciNspSpider) # https://xcinsp.com
 crawler.crawl(ArchivePlayableSpider) # https://archive.org
 crawler.crawl(KaosKrewSpider) # https://kaoskrew.org
 crawler.crawl(CPGSpider) # https://cpgrepacks.site
+crawler.crawl(GameBountySpider) # https://gamebounty.world
 crawler.start()
 #meilisearch
 SEARCHCLIENT = config("SEARCHCLIENT")
