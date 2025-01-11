@@ -40,6 +40,8 @@ from scraper.spiders.playablearchive import ArchivePlayableSpider
 from scraper.spiders.kaoskrew import KaosKrewSpider
 from scraper.spiders.cpg import CPGSpider
 from scraper.spiders.gamebounty import GameBountySpider
+from scraper.spiders.gamedrive import GameDriveSpider
+from scraper.spiders.games4u import Games4USpider
 #time
 now=datetime.now()
 current_time = now.strftime("%H:%M:%S")
@@ -55,6 +57,7 @@ crawler.crawl(AbandonwareSpider) # https://myabandonware.com
 crawler.crawl(ArchiveSpider) # https://archive.org
 crawler.crawl(FitgirlSpider) # https://fitgirl-repacks.site
 crawler.crawl(GamesdriveSpider) # https://gamesdrive.net
+crawler.crawl(GameDriveSpider) #https://gamedrive.org (NOT gamesdrive.net)
 crawler.crawl(GogSpider) # https://gog-games.com
 crawler.crawl(MadloaderSpider) # https://madloader.com
 crawler.crawl(NoPayStationSpider) # https://nopaystation.com
@@ -67,6 +70,7 @@ crawler.crawl(ArchivePlayableSpider) # https://archive.org
 crawler.crawl(KaosKrewSpider) # https://kaoskrew.org
 crawler.crawl(CPGSpider) # https://cpgrepacks.site
 crawler.crawl(GameBountySpider) # https://gamebounty.world
+crawler.crawl(Games4USpider) # https://games4u.org
 crawler.start()
 #meilisearch
 SEARCHCLIENT = config("SEARCHCLIENT")
